@@ -1,16 +1,14 @@
 <template>
-    <div> 
-        <Header/>
-        <Networks/>  
-    </div>
+  <div>
+    <Networks/>
+  </div>
 </template>
 
 
 <script>
-import Header from "@/components/Header.vue";
 import Networks from "@/components/Networks.vue";
 export default {
   name: "network",
-  components: {Header, Networks}
+  components: { Networks }
 };
 </script>
