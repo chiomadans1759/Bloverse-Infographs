@@ -1,5 +1,7 @@
 <template>
-  <b-alert variant="success" show>Success Alert</b-alert>
+  <main>
+    <b-alert variant="success" show>Success Alert</b-alert>
+  </main>
 </template>
 
 <script>

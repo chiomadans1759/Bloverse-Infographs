@@ -4,7 +4,6 @@
   </div>
 </template>
 
-
 <script>
 import Networks from "@/components/Networks.vue";
 export default {
