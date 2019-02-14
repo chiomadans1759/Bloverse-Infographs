@@ -5,7 +5,7 @@
 		</div>
 		<div v-else>
 			<h2>INTERACTIVE BUBBLE CHART FOR MOST TRENDING HEADLINES</h2>
-			<h5>List of the most trending headlines on Bloverse</h5>
+	
 		</div>
   </header>
 </template>
@@ -25,8 +25,8 @@ export default {
 #header {
   text-align: center;
   border-bottom: 1px solid grey;
-  box-shadow: 1px 1px 10px #888888;
   padding-top: 15px;
   padding-bottom: 15px;
+	margin-bottom: 10px
 }
 </style>

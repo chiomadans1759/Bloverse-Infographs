@@ -67,6 +67,6 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding:10px 40px
+  padding:10px 20px
 }
 </style>

@@ -261,5 +261,11 @@ circle{
       text-align:left;
       padding-left:5px;
     }
+    svg{
+      left:10px;
+      top:5px;
+      bottom: 5px;
+      position:absolute
+    }
 </style>
 
