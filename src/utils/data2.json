@@ -1,0 +1,3542 @@
+[
+    {
+      "id": "Messi",
+      "name": "Messi", 
+      "articles":{"id":"Eminem","score":156},
+      "age":34,
+      "r":0,
+      "country":"USA",
+      "net_worth": 40, 
+      "image_path": "https://as00.epimg.net/futbol/imagenes/2018/12/27/primera/1545874430_888683_1545874612_noticia_normal.jpg",
+      "value":525,
+      "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+      "quotes":{
+         "total":20, 
+         "quote_list": [
+             { "quote" : "We shall never know all the good that a simple smile can do.",
+               "views" : "5",
+               "comment" : "10"},
+             { "quote" : "Only great minds can afford a simple style.",
+               "views" : "21",
+               "comment" : "1"},
+             { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+               "views" : "3",
+               "comment" : "4"},
+             { "quote" : "Be happy for this moment. This moment is your life.",
+               "views" : "15",
+               "comment" : "7"}
+                      ]
+           },
+       "network": {
+         "nodes":[
+           {"id": "Udeme", "group": 1},
+           {"id": "Bloverse", "group": 2},
+           {"id": "Amin", "group": 2},
+           {"id": "Photo-Contest", "group": 2},
+           {"id": "Hockey", "group": 2},
+           {"id": "Nigeria", "group": 2},
+           {"id": "Journalist", "group": 2}
+         ],
+         "links":[{
+           "source": "Udeme",
+           "target": "Bloverse",
+           "value": 1,
+           "image_path": "images/ariana.jpg"
+       },
+       {
+           "source": "Udeme",
+           "target": "Amin",
+           "value": 1,
+           "image_path": "images/Beyonce.png"
+       },
+       {
+           "source": "Udeme",
+           "target": "Photo-Contest",
+           "value": 1,
+           "image_path": "images/biggie.jpg"
+       },
+       {
+           "source": "Udeme",
+           "target": "Hockey",
+           "value": 1,
+           "image_path": "images/steely-dan.png"
+       },
+       {
+           "source": "Udeme",
+           "target": "Nigeria",
+           "value": 1,
+           "image_path": "images/tupac.jpg"
+       },
+       {
+           "source": "Udeme",
+           "target": "Journalist",
+           "value": 1,
+           "image_path": "images/meek-mill.jpg"
+       }
+        
+         ]
+       }
+     },
+    {
+      "id": "Beyonce",
+      "name": "Beyonce", 
+      "age":25,
+      "r":0,
+      "country":"Paris",
+      "net_worth":400, 
+      "articles":{"id":"Eminem","score":36}, 
+      "image_path": "images/Beyonce.png",
+      "value":90,
+      "bio": "Beyonc Giselle Knowles-Carter is an American singer, songwriter, actress, record producer and dancer. Born and raised in Houston, Texas, Beyonc� performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as lead singer of the R&B girl-group Destiny's Child.",
+      "quotes":{
+         "total":5, 
+         "quote_list": [
+               { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+                 "views" : "2",
+                 "comment" : "10"},
+               { "quote" : "being friendly with Putin, not curtsying to the Queen",
+                 "views" : "12",
+                 "comment" : "11"},
+               { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+                 "views" : "3",
+                 "comment" : "41"},
+               { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+                 "views" : "1",
+                 "comment" : "2"}
+                       ]
+             },
+             "network": {
+               "nodes":[
+                 {"id": "Udeme", "group": 1},
+                 {"id": "Bloverse", "group": 2},
+                 {"id": "Amin", "group": 2},
+                 {"id": "Photo-Contest", "group": 2},
+                 {"id": "Hockey", "group": 2},
+                 {"id": "Nigeria", "group": 2},
+                 {"id": "Journalist", "group": 2}
+               ],
+               "links":[{
+                 "source": "Udeme",
+                 "target": "Bloverse",
+                 "value": 1,
+                 "image_path": "images/ariana.jpg"
+             },
+             {
+                 "source": "Udeme",
+                 "target": "Amin",
+                 "value": 1,
+                 "image_path": "images/Beyonce.png"
+             },
+             {
+                 "source": "Udeme",
+                 "target": "Photo-Contest",
+                 "value": 1,
+                 "image_path": "images/biggie.jpg"
+             },
+             {
+                 "source": "Udeme",
+                 "target": "Hockey",
+                 "value": 1,
+                 "image_path": "images/steely-dan.png"
+             },
+             {
+                 "source": "Udeme",
+                 "target": "Nigeria",
+                 "value": 1,
+                 "image_path": "images/tupac.jpg"
+             },
+             {
+                 "source": "Udeme",
+                 "target": "Journalist",
+                 "value": 1,
+                 "image_path": "images/meek-mill.jpg"
+             }
+              
+               ]
+             }
+    },
+    {
+      "id": "Madonna",
+      "name": "Madonna", 
+      "age":29,
+      "r":0,
+      "country":"Australia",
+      "net_worth":234, 
+      "articles":{"id":"Eminem","score":136}, 
+      "image_path": "images/madonna.png",
+      "value":60,
+      "bio": "Madonna Louise Ciccone is an American singer-songwriter, actress and businesswoman. Referred to as the Queen of Pop since the 1980s, Madonna is known for pushing the boundaries of songwriting in mainstream popular music, as well as imagery in music videos and on stage",
+      "quotes":{
+       "total":5, 
+       "quote_list": [
+             { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+               "views" : "2",
+               "comment" : "10"},
+             { "quote" : "being friendly with Putin, not curtsying to the Queen",
+               "views" : "12",
+               "comment" : "11"},
+             { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+               "views" : "3",
+               "comment" : "41"},
+             { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+               "views" : "1",
+               "comment" : "2"}
+                     ]
+           },
+           "network": {
+             "nodes":[
+               {"id": "Udeme", "group": 1},
+               {"id": "Bloverse", "group": 2},
+               {"id": "Amin", "group": 2},
+               {"id": "Photo-Contest", "group": 2},
+               {"id": "Hockey", "group": 2},
+               {"id": "Nigeria", "group": 2},
+               {"id": "Journalist", "group": 2}
+             ],
+             "links":[{
+               "source": "Udeme",
+               "target": "Bloverse",
+               "value": 1,
+               "image_path": "images/ariana.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Amin",
+               "value": 1,
+               "image_path": "images/Beyonce.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Photo-Contest",
+               "value": 1,
+               "image_path": "images/biggie.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Hockey",
+               "value": 1,
+               "image_path": "images/steely-dan.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Nigeria",
+               "value": 1,
+               "image_path": "images/tupac.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Journalist",
+               "value": 1,
+               "image_path": "images/meek-mill.jpg"
+           }
+            
+             ]
+           }
+    },
+    {
+      "id": "Adam Levine",
+      "name": "Adam Levine", 
+      "age":44,
+      "r":0,
+      "country":"Jamaica",
+      "net_worth":46, 
+      "articles":{"id":"Eminem","score":96}, 
+      "image_path": "images/adam-levine.jpg",
+      "value":67,
+      "bio": "Adam Noah Levine is an American singer, songwriter and actor. He is the lead singer for the pop rock band Maroon 5. Born and raised in Los Angeles, California, Levine began his musical career in 1994, when he co-founded the band Kara's Flowers, of which he was the lead vocalist and guitarist.",
+      "quotes":{
+       "total":5, 
+       "quote_list": [
+             { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+               "views" : "2",
+               "comment" : "10"},
+             { "quote" : "being friendly with Putin, not curtsying to the Queen",
+               "views" : "12",
+               "comment" : "11"},
+             { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+               "views" : "3",
+               "comment" : "41"},
+             { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+               "views" : "1",
+               "comment" : "2"}
+                     ]
+           },
+           "network": {
+             "nodes":[
+               {"id": "Udeme", "group": 1},
+               {"id": "Bloverse", "group": 2},
+               {"id": "Amin", "group": 2},
+               {"id": "Photo-Contest", "group": 2},
+               {"id": "Hockey", "group": 2},
+               {"id": "Nigeria", "group": 2},
+               {"id": "Journalist", "group": 2}
+             ],
+             "links":[{
+               "source": "Udeme",
+               "target": "Bloverse",
+               "value": 1,
+               "image_path": "images/ariana.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Amin",
+               "value": 1,
+               "image_path": "images/Beyonce.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Photo-Contest",
+               "value": 1,
+               "image_path": "images/biggie.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Hockey",
+               "value": 1,
+               "image_path": "images/steely-dan.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Nigeria",
+               "value": 1,
+               "image_path": "images/tupac.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Journalist",
+               "value": 1,
+               "image_path": "images/meek-mill.jpg"
+           }
+            
+             ]
+           }
+    },
+    {
+      "id": "Kendrick Lamar",
+      "name": "Kendrick Lamar", 
+      "age":35,
+      "r":0,
+      "country":"UK",
+      "net_worth":90, 
+      "articles":{"id":"Eminem","score":150}, 
+      "image_path": "https://timedotcom.files.wordpress.com/2017/12/kendrick-lamar-love-music-video-black-panther-soundtrack-easter-egg.jpg",
+      "value":80,
+      "bio": "Kendrick Lamar Duckworth is an American rapper, songwriter, and record producer. He is regarded as one of the most skillful and successful hip hop artists of his generation, with various media outlets branding him the new king of hip hop AKA GOAT",
+      "quotes":{
+         "total":5, 
+         "quote_list": [
+             { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+               "views" : "2",
+               "comment" : "10"},
+             { "quote" : "being friendly with Putin, not curtsying to the Queen",
+               "views" : "12",
+               "comment" : "11"},
+             { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+               "views" : "3",
+               "comment" : "41"},
+             { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+               "views" : "1",
+               "comment" : "2"}
+                     ]
+           },
+           "network": {
+             "nodes":[
+               {"id": "Udeme", "group": 1},
+               {"id": "Bloverse", "group": 2},
+               {"id": "Amin", "group": 2},
+               {"id": "Photo-Contest", "group": 2},
+               {"id": "Hockey", "group": 2},
+               {"id": "Nigeria", "group": 2},
+               {"id": "Journalist", "group": 2}
+             ],
+             "links":[{
+               "source": "Udeme",
+               "target": "Bloverse",
+               "value": 1,
+               "image_path": "images/ariana.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Amin",
+               "value": 1,
+               "image_path": "images/Beyonce.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Photo-Contest",
+               "value": 1,
+               "image_path": "images/biggie.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Hockey",
+               "value": 1,
+               "image_path": "images/steely-dan.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Nigeria",
+               "value": 1,
+               "image_path": "images/tupac.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Journalist",
+               "value": 1,
+               "image_path": "images/meek-mill.jpg"
+           }
+            
+             ]
+           }
+    },
+    {
+      "id": "Tupac Shakur",
+      "name": "Tupac Shakur", 
+      "age":54,
+      "r":0,
+      "country":"Japan",
+      "net_worth":700, 
+      "articles":{"id":"Eminem","score":120}, 
+      "image_path": "images/tupac.jpg",
+      "value":23,
+      "bio": "Tupac Amaru Shakur also known by his stage names 2Pac and Makaveli was an American rapper, actor and poet. He is considered by many to be one of the greatest hip hop artists of all time. Shakur was born in the Harlem neighborhood of New York City but relocated to Los Angeles in 1988",
+      "quotes":{
+       "total":5, 
+       "quote_list": [
+             { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+               "views" : "2",
+               "comment" : "10"},
+             { "quote" : "being friendly with Putin, not curtsying to the Queen",
+               "views" : "12",
+               "comment" : "11"},
+             { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+               "views" : "3",
+               "comment" : "41"},
+             { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+               "views" : "1",
+               "comment" : "2"}
+                     ]
+           },
+           "network": {
+             "nodes":[
+               {"id": "Udeme", "group": 1},
+               {"id": "Bloverse", "group": 2},
+               {"id": "Amin", "group": 2},
+               {"id": "Photo-Contest", "group": 2},
+               {"id": "Hockey", "group": 2},
+               {"id": "Nigeria", "group": 2},
+               {"id": "Journalist", "group": 2}
+             ],
+             "links":[{
+               "source": "Udeme",
+               "target": "Bloverse",
+               "value": 1,
+               "image_path": "images/ariana.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Amin",
+               "value": 1,
+               "image_path": "images/Beyonce.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Photo-Contest",
+               "value": 1,
+               "image_path": "images/biggie.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Hockey",
+               "value": 1,
+               "image_path": "images/steely-dan.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Nigeria",
+               "value": 1,
+               "image_path": "images/tupac.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Journalist",
+               "value": 1,
+               "image_path": "images/meek-mill.jpg"
+           }
+            
+             ]
+           }
+    },
+    {
+      "id": "Biggie Smalls",
+      "name": "Biggie Smalls", 
+      "age":34,
+      "r":0,
+      "country":"USA",
+      "net_worth":40, 
+      "articles":{"id":"Eminem","score":100}, 
+      "image_path": "images/biggie.jpg",
+      "value":51,
+      "bio": "Christopher George Latore Wallace, known professionally as the Notorious B.I.G., Biggie Smalls, or Biggie, was an American rapper. He is considered by many to be one of the greatest rappers of all time. Wallace was raised in the Brooklyn borough of New York City.",
+      "quotes":{
+       "total":5, 
+       "quote_list": [
+             { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+               "views" : "2",
+               "comment" : "10"},
+             { "quote" : "being friendly with Putin, not curtsying to the Queen",
+               "views" : "12",
+               "comment" : "11"},
+             { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+               "views" : "3",
+               "comment" : "41"},
+             { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+               "views" : "1",
+               "comment" : "2"}
+                     ]
+           },
+           "network": {
+             "nodes":[
+               {"id": "Udeme", "group": 1},
+               {"id": "Bloverse", "group": 2},
+               {"id": "Amin", "group": 2},
+               {"id": "Photo-Contest", "group": 2},
+               {"id": "Hockey", "group": 2},
+               {"id": "Nigeria", "group": 2},
+               {"id": "Journalist", "group": 2}
+             ],
+             "links":[{
+               "source": "Udeme",
+               "target": "Bloverse",
+               "value": 1,
+               "image_path": "images/ariana.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Amin",
+               "value": 1,
+               "image_path": "images/Beyonce.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Photo-Contest",
+               "value": 1,
+               "image_path": "images/biggie.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Hockey",
+               "value": 1,
+               "image_path": "images/steely-dan.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Nigeria",
+               "value": 1,
+               "image_path": "images/tupac.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Journalist",
+               "value": 1,
+               "image_path": "images/meek-mill.jpg"
+           }
+            
+             ]
+           }
+    },
+    {
+     "id": "Drake", 
+     "name": "Drake", 
+     "articles":{"id":"Drake","score":56},
+     "age":34,
+     "r":0,
+     "country":"USA",
+     "net_worth": 35, 
+     "image_path": "images/drake.jpg",
+     "value":40,
+     "bio": "Aubrey Drake Graham is a Canadian rapper, singer, songwriter, record producer, actor, and entrepreneur. Drake initially gained recognition as an actor on the teen drama television series Degrassi: The Next Generation in the early 2000s.",
+     "quotes":{
+        "total":22, 
+        "quote_list": [
+            { "quote" : "We shall never know all the good that a simple smile can do.",
+              "views" : "11",
+              "comment" : "10"},
+            { "quote" : "Only great minds can afford a simple style.",
+              "views" : "2",
+              "comment" : "1"},
+            { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+              "views" : "3",
+              "comment" : "4"},
+            { "quote" : "Be happy for this moment. This moment is your life.",
+              "views" : "15",
+              "comment" : "7"}
+                     ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+    },
+    {
+     "id": "Jcole",
+     "name": "Jcole", 
+     "articles":{"id":"Jcole","score":76},
+     "age":34,
+     "r":0,
+     "country":"Uganda",
+     "net_worth": 26, 
+     "image_path": "images/jcole.jpg",
+     "value":102,
+     "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+     "quotes":{
+        "total":31, 
+        "quote_list": [
+            { "quote" : "We shall never know all the good that a simple smile can do.",
+              "views" : "5",
+              "comment" : "10"},
+            { "quote" : "Only great minds can afford a simple style.",
+              "views" : "27",
+              "comment" : "1"},
+            { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+              "views" : "13",
+              "comment" : "4"},
+            { "quote" : "Be happy for this moment. This moment is your life.",
+              "views" : "15",
+              "comment" : "7"}
+                     ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+    },
+    {
+     "id": "Eminem",
+     "name": "Eminem", 
+     "articles":{"id":"Eminem","score":56},
+     "age":34,
+     "r":0,
+     "country":"USA",
+     "net_worth": 40, 
+     "image_path": "images/steely-dan.png",
+     "value":23,
+     "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+     "quotes":{
+        "total":20, 
+        "quote_list": [
+            { "quote" : "We shall never know all the good that a simple smile can do.",
+              "views" : "5",
+              "comment" : "10"},
+            { "quote" : "Only great minds can afford a simple style.",
+              "views" : "2",
+              "comment" : "1"},
+            { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+              "views" : "3",
+              "comment" : "4"},
+            { "quote" : "Be happy for this moment. This moment is your life.",
+              "views" : "15",
+              "comment" : "7"}
+                     ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+    },
+    {
+     "id": "Messi",
+     "name": "Messi", 
+     "articles":{"id":"Lionel Richie","score":56},
+     "age":82,
+     "r":0,
+     "country":"Nigeria",
+     "net_worth": 82, 
+     "image_path": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/02/10/15498371365948.jpg",
+     "value":65,
+     "bio": "Lionel Brockman Richie Jr. is an American singer, songwriter, actor and record producer. Beginning in 1968, Richie was a member of the funk and soul band the Commodores.",
+     "quotes":{
+        "total":20, 
+        "quote_list": [
+            { "quote" : "We shall never know all the good that a simple smile can do.",
+              "views" : "5",
+              "comment" : "10"},
+            { "quote" : "Only great minds can afford a simple style.",
+              "views" : "2",
+              "comment" : "1"},
+            { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+              "views" : "3",
+              "comment" : "4"},
+            { "quote" : "Be happy for this moment. This moment is your life.",
+              "views" : "15",
+              "comment" : "71"}
+                     ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "https://imgix.bustle.com/uploads/getty/2019/2/10/8464abde-b14f-482d-96c3-7c15c3ba4c46-getty-946416208.jpg?w=960&h=540&fit=crop&crop=faces&auto=format&q=70"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+    },
+    {
+     "id": "Eminem",
+     "name": "Eminem", 
+     "articles":{"id":"Eminem","score":56},
+     "age":34,
+     "r":0,
+     "country":"USA",
+     "net_worth": 40, 
+     "image_path": "images/steely-dan.png",
+     "value":47,
+     "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+     "quotes":{
+        "total":20, 
+        "quote_list": [
+            { "quote" : "We shall never know all the good that a simple smile can do.",
+              "views" : "5",
+              "comment" : "10"},
+            { "quote" : "Only great minds can afford a simple style.",
+              "views" : "2",
+              "comment" : "1"},
+            { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+              "views" : "3",
+              "comment" : "4"},
+            { "quote" : "Be happy for this moment. This moment is your life.",
+              "views" : "15",
+              "comment" : "7"}
+                     ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+    },
+    {
+     "id": "Eminem",
+     "name": "Eminem", 
+     "articles":{"id":"Eminem","score":156},
+     "age":34,
+     "r":0,
+     "country":"USA",
+     "net_worth": 40, 
+     "image_path": "images/ariana.jpg",
+     "value":88,
+     "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+     "quotes":{
+        "total":20, 
+        "quote_list": [
+            { "quote" : "We shall never know all the good that a simple smile can do.",
+              "views" : "5",
+              "comment" : "10"},
+            { "quote" : "Only great minds can afford a simple style.",
+              "views" : "2",
+              "comment" : "1"},
+            { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+              "views" : "3",
+              "comment" : "4"},
+            { "quote" : "Be happy for this moment. This moment is your life.",
+              "views" : "15",
+              "comment" : "7"}
+                     ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+    },
+   {
+     "id": "Beyonce",
+     "name": "Beyonce", 
+     "age":25,
+     "r":0,
+     "country":"Paris",
+     "net_worth":400, 
+     "articles":{"id":"Eminem","score":96}, 
+     "image_path": "https://timedotcom.files.wordpress.com/2017/11/beyonce-lion-king-remake.jpg",
+     "value":29,
+     "bio": "Beyonc Giselle Knowles-Carter is an American singer, songwriter, actress, record producer and dancer. Born and raised in Houston, Texas, Beyonc� performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as lead singer of the R&B girl-group Destiny's Child.",
+     "quotes":{
+        "total":5, 
+        "quote_list": [
+              { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+                "views" : "53",
+                "comment" : "100"},
+              { "quote" : "Being friendly with Putin, not curtsying to the Queen",
+                "views" : "12",
+                "comment" : "11"},
+              { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+                "views" : "3",
+                "comment" : "41"},
+              { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+                "views" : "1",
+                "comment" : "2"}
+                      ]
+            },
+            "network": {
+             "nodes":[
+               {"id": "Udeme", "group": 1},
+               {"id": "Bloverse", "group": 2},
+               {"id": "Amin", "group": 2},
+               {"id": "Photo-Contest", "group": 2},
+               {"id": "Hockey", "group": 2},
+               {"id": "Nigeria", "group": 2},
+               {"id": "Journalist", "group": 2}
+             ],
+             "links":[{
+               "source": "Udeme",
+               "target": "Bloverse",
+               "value": 1,
+               "image_path": "images/ariana.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Amin",
+               "value": 1,
+               "image_path": "images/Beyonce.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Photo-Contest",
+               "value": 1,
+               "image_path": "images/biggie.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Hockey",
+               "value": 1,
+               "image_path": "images/steely-dan.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Nigeria",
+               "value": 1,
+               "image_path": "images/tupac.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Journalist",
+               "value": 1,
+               "image_path": "images/meek-mill.jpg"
+           }
+            
+             ]
+           }
+   },
+   {
+     "id": "Madonna",
+     "name": "Madonna", 
+     "age":29,
+     "r":0,
+     "country":"Australia",
+     "net_worth":234, 
+     "articles":{"id":"Eminem","score":106}, 
+     "image_path": "images/ChrisBrown.jpg",
+     "value":38,
+     "bio": "Madonna Louise Ciccone is an American singer-songwriter, actress and businesswoman. Referred to as the Queen of Pop since the 1980s, Madonna is known for pushing the boundaries of songwriting in mainstream popular music, as well as imagery in music videos and on stage",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Adam Levine",
+     "name": "Adam Levine", 
+     "age":44,
+     "r":0,
+     "country":"Jamaica",
+     "net_worth":46, 
+     "articles":{"id":"Eminem","score":26}, 
+     "image_path": "images/adam-levine.jpg",
+     "value":58,
+     "bio": "Adam Noah Levine is an American singer, songwriter and actor. He is the lead singer for the pop rock band Maroon 5. Born and raised in Los Angeles, California, Levine began his musical career in 1994, when he co-founded the band Kara's Flowers, of which he was the lead vocalist and guitarist.",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "Being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "110"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Kendrick Lamar",
+     "name": "Kendrick Lamar", 
+     "age":35,
+     "r":0,
+     "country":"UK",
+     "net_worth":90, 
+     "articles":{"id":"Eminem","score":150}, 
+     "image_path": "https://ksassets.timeincuk.net/wp/uploads/sites/55/2015/07/2015KendrickLamar_ST_2_150715.hero_-920x515.jpg",
+     "value":66,
+     "bio": "Kendrick Lamar Duckworth is an American rapper, songwriter, and record producer. He is regarded as one of the most skillful and successful hip hop artists of his generation, with various media outlets branding him the new king of hip hop AKA GOAT",
+     "quotes":{
+        "total":5, 
+        "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "Being friendly with Putin, not curtsying to the Queen",
+              "views" : "120",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Tupac Shakur",
+     "name": "Tupac Shakur", 
+     "age":54,
+     "r":0,
+     "country":"Japan",
+     "net_worth":700, 
+     "articles":{"id":"Eminem","score":170}, 
+     "image_path": "images/adam-levine.jpg",
+     "value":18,
+     "bio": "Tupac Amaru Shakur also known by his stage names 2Pac and Makaveli was an American rapper, actor and poet. He is considered by many to be one of the greatest hip hop artists of all time. Shakur was born in the Harlem neighborhood of New York City but relocated to Los Angeles in 1988",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "123",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Biggie Smalls",
+     "name": "Biggie Smalls", 
+     "age":34,
+     "r":0,
+     "country":"USA",
+     "net_worth":40, 
+     "articles":{"id":"Eminem","score":100}, 
+     "image_path": "images/biggie.jpg",
+     "value":29,
+     "bio": "Christopher George Latore Wallace, known professionally as the Notorious B.I.G., Biggie Smalls, or Biggie, was an American rapper. He is considered by many to be one of the greatest rappers of all time. Wallace was raised in the Brooklyn borough of New York City.",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+              { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+               "views" : "29",
+               "comment" : "140"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"}         
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Drake", 
+    "name": "Drake", 
+    "articles":{"id":"Drake","score":56},
+    "age":34,
+    "r":0,
+    "country":"USA",
+    "net_worth": 35, 
+    "image_path": "images/drake.jpg",
+    "value":63,
+    "bio": "Aubrey Drake Graham is a Canadian rapper, singer, songwriter, record producer, actor, and entrepreneur. Drake initially gained recognition as an actor on the teen drama television series Degrassi: The Next Generation in the early 2000s.",
+    "quotes":{
+       "total":22, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "51",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "31",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Jcole",
+    "name": "Jcole", 
+    "articles":{"id":"Jcole","score":76},
+    "age":34,
+    "r":0,
+    "country":"Uganda",
+    "net_worth": 26, 
+    "image_path": "images/jcole.jpg",
+    "value":57,
+    "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+    "quotes":{
+       "total":31, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "27",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "13",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Eminem",
+    "name": "Eminem", 
+    "articles":{"id":"Eminem","score":56},
+    "age":34,
+    "r":0,
+    "country":"USA",
+    "net_worth": 40, 
+    "image_path": "images/steely-dan.png",
+    "value":40,
+    "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+    "quotes":{
+       "total":20, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "3",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Lionel Richie",
+    "name": "Lionel Richie", 
+    "articles":{"id":"Lionel Richie","score":56},
+    "age":82,
+    "r":0,
+    "country":"Nigeria",
+    "net_worth": 82, 
+    "image_path": "images/lionel.jpg",
+    "value":67,
+    "bio": "Lionel Brockman Richie Jr. is an American singer, songwriter, actor and record producer. Beginning in 1968, Richie was a member of the funk and soul band the Commodores.",
+    "quotes":{
+       "total":20, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "3",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "71"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Eminem",
+    "name": "Eminem", 
+    "articles":{"id":"Eminem","score":56},
+    "age":34,
+    "r":0,
+    "country":"USA",
+    "net_worth": 40, 
+    "image_path": "images/steely-dan.png",
+    "value":57,
+    "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+    "quotes":{
+       "total":20, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "3",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Beyonce",
+     "name": "Beyonce", 
+     "age":25,
+     "r":0,
+     "country":"Paris",
+     "net_worth":400, 
+     "articles":{"id":"Eminem","score":36}, 
+     "image_path": "images/Beyonce.png",
+     "value":82,
+     "bio": "Beyonc Giselle Knowles-Carter is an American singer, songwriter, actress, record producer and dancer. Born and raised in Houston, Texas, Beyonc� performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as lead singer of the R&B girl-group Destiny's Child.",
+     "quotes":{
+        "total":5, 
+        "quote_list": [
+              { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+                "views" : "2",
+                "comment" : "10"},
+              { "quote" : "being friendly with Putin, not curtsying to the Queen",
+                "views" : "12",
+                "comment" : "11"},
+              { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+                "views" : "3",
+                "comment" : "41"},
+              { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+                "views" : "1",
+                "comment" : "2"}
+                      ]
+            },
+            "network": {
+             "nodes":[
+               {"id": "Udeme", "group": 1},
+               {"id": "Bloverse", "group": 2},
+               {"id": "Amin", "group": 2},
+               {"id": "Photo-Contest", "group": 2},
+               {"id": "Hockey", "group": 2},
+               {"id": "Nigeria", "group": 2},
+               {"id": "Journalist", "group": 2}
+             ],
+             "links":[{
+               "source": "Udeme",
+               "target": "Bloverse",
+               "value": 1,
+               "image_path": "images/ariana.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Amin",
+               "value": 1,
+               "image_path": "images/Beyonce.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Photo-Contest",
+               "value": 1,
+               "image_path": "images/biggie.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Hockey",
+               "value": 1,
+               "image_path": "images/steely-dan.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Nigeria",
+               "value": 1,
+               "image_path": "images/tupac.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Journalist",
+               "value": 1,
+               "image_path": "images/meek-mill.jpg"
+           }
+            
+             ]
+           }
+   },
+   {
+     "id": "Madonna",
+     "name": "Madonna", 
+     "age":29,
+     "r":0,
+     "country":"Australia",
+     "net_worth":234, 
+     "articles":{"id":"Eminem","score":136}, 
+     "image_path": "images/madonna.png",
+     "value":90,
+     "bio": "Madonna Louise Ciccone is an American singer-songwriter, actress and businesswoman. Referred to as the Queen of Pop since the 1980s, Madonna is known for pushing the boundaries of songwriting in mainstream popular music, as well as imagery in music videos and on stage",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Adam Levine",
+     "name": "Adam Levine", 
+     "age":44,
+     "r":0,
+     "country":"Jamaica",
+     "net_worth":46, 
+     "articles":{"id":"Eminem","score":96}, 
+     "image_path": "images/adam-levine.jpg",
+     "value":100,
+     "bio": "Adam Noah Levine is an American singer, songwriter and actor. He is the lead singer for the pop rock band Maroon 5. Born and raised in Los Angeles, California, Levine began his musical career in 1994, when he co-founded the band Kara's Flowers, of which he was the lead vocalist and guitarist.",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Kendrick Lamar",
+     "name": "Kendrick Lamar", 
+     "age":35,
+     "r":0,
+     "country":"UK",
+     "net_worth":90, 
+     "articles":{"id":"Eminem","score":150}, 
+     "image_path": "https://timedotcom.files.wordpress.com/2018/06/kendrick-lamar-on-winning-pulitzer-prize.jpg",
+     "value":19,
+     "bio": "Kendrick Lamar Duckworth is an American rapper, songwriter, and record producer. He is regarded as one of the most skillful and successful hip hop artists of his generation, with various media outlets branding him the new king of hip hop AKA GOAT",
+     "quotes":{
+        "total":5, 
+        "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Tupac Shakur",
+     "name": "Tupac Shakur", 
+     "age":54,
+     "r":0,
+     "country":"Japan",
+     "net_worth":700, 
+     "articles":{"id":"Eminem","score":120}, 
+     "image_path": "images/tupac.jpg",
+     "value":35,
+     "bio": "Tupac Amaru Shakur also known by his stage names 2Pac and Makaveli was an American rapper, actor and poet. He is considered by many to be one of the greatest hip hop artists of all time. Shakur was born in the Harlem neighborhood of New York City but relocated to Los Angeles in 1988",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Biggie Smalls",
+     "name": "Biggie Smalls", 
+     "age":34,
+     "r":0,
+     "country":"USA",
+     "net_worth":40, 
+     "articles":{"id":"Eminem","score":100}, 
+     "image_path": "images/biggie.jpg",
+     "value":29,
+     "bio": "Christopher George Latore Wallace, known professionally as the Notorious B.I.G., Biggie Smalls, or Biggie, was an American rapper. He is considered by many to be one of the greatest rappers of all time. Wallace was raised in the Brooklyn borough of New York City.",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Drake", 
+    "name": "Drake", 
+    "articles":{"id":"Drake","score":56},
+    "age":34,
+    "r":0,
+    "country":"USA",
+    "net_worth": 35, 
+    "image_path": "images/drake.jpg",
+    "value":41,
+    "bio": "Aubrey Drake Graham is a Canadian rapper, singer, songwriter, record producer, actor, and entrepreneur. Drake initially gained recognition as an actor on the teen drama television series Degrassi: The Next Generation in the early 2000s.",
+    "quotes":{
+       "total":22, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "11",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "3",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Jcole",
+    "name": "Jcole", 
+    "articles":{"id":"Jcole","score":76},
+    "age":34,
+    "r":0,
+    "country":"Uganda",
+    "net_worth": 26, 
+    "image_path": "images/jcole.jpg",
+    "value":23,
+    "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+    "quotes":{
+       "total":31, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "27",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "13",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Eminem",
+    "name": "Eminem", 
+    "articles":{"id":"Eminem","score":56},
+    "age":34,
+    "r":0,
+    "country":"USA",
+    "net_worth": 40, 
+    "image_path": "images/steely-dan.png",
+    "value":87,
+    "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+    "quotes":{
+       "total":20, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "3",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Lionel Richie",
+    "name": "Lionel Richie", 
+    "articles":{"id":"Lionel Richie","score":56},
+    "age":82,
+    "r":0,
+    "country":"Nigeria",
+    "net_worth": 82, 
+    "image_path": "images/lionel.jpg",
+    "value":72,
+    "bio": "Lionel Brockman Richie Jr. is an American singer, songwriter, actor and record producer. Beginning in 1968, Richie was a member of the funk and soul band the Commodores.",
+    "quotes":{
+       "total":20, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "3",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "71"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Eminem",
+    "name": "Eminem", 
+    "articles":{"id":"Eminem","score":56},
+    "age":34,
+    "r":0,
+    "country":"USA",
+    "net_worth": 40, 
+    "image_path": "images/steely-dan.png",
+    "value":67,
+    "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+    "quotes":{
+       "total":20, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "3",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Beyonce",
+     "name": "Beyonce", 
+     "age":25,
+     "r":0,
+     "country":"Paris",
+     "net_worth":400, 
+     "articles":{"id":"Eminem","score":36}, 
+     "image_path": "images/Beyonce.png",
+     "value":50,
+     "bio": "Beyonc Giselle Knowles-Carter is an American singer, songwriter, actress, record producer and dancer. Born and raised in Houston, Texas, Beyonc� performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as lead singer of the R&B girl-group Destiny's Child.",
+     "quotes":{
+        "total":5, 
+        "quote_list": [
+              { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+                "views" : "2",
+                "comment" : "10"},
+              { "quote" : "being friendly with Putin, not curtsying to the Queen",
+                "views" : "12",
+                "comment" : "11"},
+              { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+                "views" : "3",
+                "comment" : "41"},
+              { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+                "views" : "1",
+                "comment" : "2"}
+                      ]
+            },
+            "network": {
+             "nodes":[
+               {"id": "Udeme", "group": 1},
+               {"id": "Bloverse", "group": 2},
+               {"id": "Amin", "group": 2},
+               {"id": "Photo-Contest", "group": 2},
+               {"id": "Hockey", "group": 2},
+               {"id": "Nigeria", "group": 2},
+               {"id": "Journalist", "group": 2}
+             ],
+             "links":[{
+               "source": "Udeme",
+               "target": "Bloverse",
+               "value": 1,
+               "image_path": "images/ariana.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Amin",
+               "value": 1,
+               "image_path": "images/Beyonce.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Photo-Contest",
+               "value": 1,
+               "image_path": "images/biggie.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Hockey",
+               "value": 1,
+               "image_path": "images/steely-dan.png"
+           },
+           {
+               "source": "Udeme",
+               "target": "Nigeria",
+               "value": 1,
+               "image_path": "images/tupac.jpg"
+           },
+           {
+               "source": "Udeme",
+               "target": "Journalist",
+               "value": 1,
+               "image_path": "images/meek-mill.jpg"
+           }
+            
+             ]
+           }
+   },
+   {
+     "id": "Madonna",
+     "name": "Madonna", 
+     "age":29,
+     "r":0,
+     "country":"Australia",
+     "net_worth":234, 
+     "articles":{"id":"Eminem","score":136}, 
+     "image_path": "images/madonna.png",
+     "value":39,
+     "bio": "Madonna Louise Ciccone is an American singer-songwriter, actress and businesswoman. Referred to as the Queen of Pop since the 1980s, Madonna is known for pushing the boundaries of songwriting in mainstream popular music, as well as imagery in music videos and on stage",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Adam Levine",
+     "name": "Adam Levine", 
+     "age":44,
+     "r":0,
+     "country":"Jamaica",
+     "net_worth":46, 
+     "articles":{"id":"Eminem","score":96}, 
+     "image_path": "images/adam-levine.jpg",
+     "value":87,
+     "bio": "Adam Noah Levine is an American singer, songwriter and actor. He is the lead singer for the pop rock band Maroon 5. Born and raised in Los Angeles, California, Levine began his musical career in 1994, when he co-founded the band Kara's Flowers, of which he was the lead vocalist and guitarist.",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Kendrick Lamar",
+     "name": "Kendrick Lamar", 
+     "age":35,
+     "r":0,
+     "country":"UK",
+     "net_worth":90, 
+     "articles":{"id":"Eminem","score":150}, 
+     "image_path": "http://www.much.com/wp-content/uploads/2017/04/Kendrick-Lamar-Damn.jpg",
+     "value":25,
+     "bio": "Kendrick Lamar Duckworth is an American rapper, songwriter, and record producer. He is regarded as one of the most skillful and successful hip hop artists of his generation, with various media outlets branding him the new king of hip hop AKA GOAT",
+     "quotes":{
+        "total":5, 
+        "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Tupac Shakur",
+     "name": "Tupac Shakur", 
+     "age":54,
+     "r":0,
+     "country":"Japan",
+     "net_worth":700, 
+     "articles":{"id":"Eminem","score":120}, 
+     "image_path": "images/tupac.jpg",
+     "value":62,
+     "bio": "Tupac Amaru Shakur also known by his stage names 2Pac and Makaveli was an American rapper, actor and poet. He is considered by many to be one of the greatest hip hop artists of all time. Shakur was born in the Harlem neighborhood of New York City but relocated to Los Angeles in 1988",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+     "id": "Biggie Smalls",
+     "name": "Biggie Smalls", 
+     "age":34,
+     "r":0,
+     "country":"USA",
+     "net_worth":40, 
+     "articles":{"id":"Eminem","score":100}, 
+     "image_path": "images/biggie.jpg",
+     "value":23,
+     "bio": "Christopher George Latore Wallace, known professionally as the Notorious B.I.G., Biggie Smalls, or Biggie, was an American rapper. He is considered by many to be one of the greatest rappers of all time. Wallace was raised in the Brooklyn borough of New York City.",
+     "quotes":{
+      "total":5, 
+      "quote_list": [
+            { "quote" : "Donald Trump has made news this month for all the wrong reasons",
+              "views" : "2",
+              "comment" : "10"},
+            { "quote" : "being friendly with Putin, not curtsying to the Queen",
+              "views" : "12",
+              "comment" : "11"},
+            { "quote" : "It wasn’t a huge surprise therefore when his star on the",
+              "views" : "3",
+              "comment" : "41"},
+            { "quote" : "Hollywood Walk of Fame was smashed to pieces with a pickaxe.",
+              "views" : "1",
+              "comment" : "2"}
+                    ]
+          },
+          "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Drake", 
+    "name": "Drake", 
+    "articles":{"id":"Drake","score":56},
+    "age":34,
+    "r":0,
+    "country":"USA",
+    "net_worth": 35, 
+    "image_path": "images/drake.jpg",
+    "value":97,
+    "bio": "Aubrey Drake Graham is a Canadian rapper, singer, songwriter, record producer, actor, and entrepreneur. Drake initially gained recognition as an actor on the teen drama television series Degrassi: The Next Generation in the early 2000s.",
+    "quotes":{
+       "total":22, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "11",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "3",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Jcole",
+    "name": "Jcole", 
+    "articles":{"id":"Jcole","score":76},
+    "age":34,
+    "r":0,
+    "country":"Uganda",
+    "net_worth": 26, 
+    "image_path": "images/jcole.jpg",
+    "value":67,
+    "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+    "quotes":{
+       "total":31, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "27",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "13",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Eminem",
+    "name": "Eminem", 
+    "articles":{"id":"Eminem","score":56},
+    "age":34,
+    "r":0,
+    "country":"USA",
+    "net_worth": 40, 
+    "image_path": "images/steely-dan.png",
+    "value":"35",
+    "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+    "quotes":{
+       "total":20, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "3",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         }
+   },
+   {
+    "id": "Lionel Richie",
+    "name": "Lionel Richie", 
+    "articles":{"id":"Lionel Richie","score":56},
+    "age":82,
+    "r":0,
+    "country":"Nigeria",
+    "net_worth": 82, 
+    "image_path": "images/lionel.jpg",
+    "value":82,
+    "bio": "Lionel Brockman Richie Jr. is an American singer, songwriter, actor and record producer. Beginning in 1968, Richie was a member of the funk and soul band the Commodores.",
+    "quotes":{
+       "total":20, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "3",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "71"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   },
+   {
+    "id": "Eminem",
+    "name": "Eminem", 
+    "articles":{"id":"Eminem","score":56},
+    "age":34,
+    "r":0,
+    "country":"USA",
+    "net_worth": 40, 
+    "image_path": "images/steely-dan.png",
+    "value":74,
+    "bio": "After Becker's death (2017 - present) Becker died from complications of esophageal cancer on September 3, 2017. In a note released to the media, Fagen remembered his longtime friend and bandmate, and promised to ",
+    "quotes":{
+       "total":20, 
+       "quote_list": [
+           { "quote" : "We shall never know all the good that a simple smile can do.",
+             "views" : "5",
+             "comment" : "10"},
+           { "quote" : "Only great minds can afford a simple style.",
+             "views" : "2",
+             "comment" : "1"},
+           { "quote" : "The shepherd always tries to persuade the sheep that their interests and his own are the same.",
+             "views" : "3",
+             "comment" : "4"},
+           { "quote" : "Be happy for this moment. This moment is your life.",
+             "views" : "15",
+             "comment" : "7"}
+                    ]
+         },
+         "network": {
+           "nodes":[
+             {"id": "Udeme", "group": 1},
+             {"id": "Bloverse", "group": 2},
+             {"id": "Amin", "group": 2},
+             {"id": "Photo-Contest", "group": 2},
+             {"id": "Hockey", "group": 2},
+             {"id": "Nigeria", "group": 2},
+             {"id": "Journalist", "group": 2}
+           ],
+           "links":[{
+             "source": "Udeme",
+             "target": "Bloverse",
+             "value": 1,
+             "image_path": "images/ariana.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Amin",
+             "value": 1,
+             "image_path": "images/Beyonce.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Photo-Contest",
+             "value": 1,
+             "image_path": "images/biggie.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Hockey",
+             "value": 1,
+             "image_path": "images/steely-dan.png"
+         },
+         {
+             "source": "Udeme",
+             "target": "Nigeria",
+             "value": 1,
+             "image_path": "images/tupac.jpg"
+         },
+         {
+             "source": "Udeme",
+             "target": "Journalist",
+             "value": 1,
+             "image_path": "images/meek-mill.jpg"
+         }
+          
+           ]
+         }
+   }
+   ] 
+   
