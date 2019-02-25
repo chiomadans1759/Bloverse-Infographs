@@ -1,13 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-// Layouts
 import DefaultLayout from '@/layouts/DefaultLayout'
-
-// Views
-import Landing from '@/views/Landing.vue'
-import Network from '@/views/NetworkGraph.vue'
-import NotFound from '@/views/NotFound.vue'
+import NotFound from '@/views/NotFound'
 
 Vue.use(Router)
 
@@ -18,11 +13,7 @@ const router = new Router({
     {
       path: '/',
       name: 'General Layout',
-      component: DefaultLayout,
-      children: [
-        { path: '', name: 'Landing View', component: Landing },
-        { path: 'network', name: 'Network', component: Network }
-      ]
+      component: DefaultLayout
     },
     { path: '*', name: '404 View', component: NotFound }
   ]
