@@ -6,9 +6,7 @@
 </template>
 
 <script>
-import DefaultHeader from "@/components/DefaultHeader.vue";
 export default {
   name: "default-layout",
-  components: { DefaultHeader }
 }
 </script>
