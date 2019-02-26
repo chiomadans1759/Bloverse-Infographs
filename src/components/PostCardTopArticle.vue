@@ -1,9 +1,9 @@
 <template>
   <main>  
-			<div class="card"	style="width:35%;">  
+			<div class="card"	style="width:45%;">  
 				<img src="./../assets/post-article.jpg" height="192px" alt="">
 				<div class="card-body-title--content mt-2 ml-3">
-					<p class="category">Technology</p>
+					<p class="card-body-category">Technology</p>
 					<h5 class="card-title font-weight-bold">
 						Lorem ipsum dolor sit amet, vel accumsan iberaviss ex,
 						ea nec elaboraret interpret
@@ -65,7 +65,7 @@
 <script> 
 </script>
 <style scoped> 
-	.category{
+	.card-body-category{
 		position:absolute;
 		top:8px;
 		right:8px;
@@ -76,30 +76,37 @@
 		background-color:#fff;
 		font-size:12px;
 	}
+
 	.read-article, .time{
 		font-size:12px;
 	}
+
 	.name-initials{ 
 		font-size:8px;
 	}
+
 	.counts, .name{
 		font-size:14px;
 		font-weight:600;
 		color:#565656;
 	}
+
 	.name{
 		color:#096DD9;
 	}
+
 	.count, .option, .circle-border{
 		display:inline-flex;
 		justify-content: center;
 		align-items: center; 
 		font-size:12px; 
 	}
+
 	.fa-circle{ 
 		font-size:4px;
 		color:#096DD9;
 	}
+
 	.circle-border{
 		height:25px;
 		width:25px; 
