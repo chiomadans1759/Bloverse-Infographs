@@ -22,7 +22,7 @@
           alt=""
         >
         <img
-          src="https://images.unsplash.com/photo-1535931737580-a99567967ddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          src="https://images.unsplash.com/photo-1520720504205-80fec328ef9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
           alt=""
         >
       </div>
@@ -114,9 +114,13 @@ export default {};
   overflow: hidden;
 }
 .main-intro-second img {
-  width: 175px;
+  width: 100%;
   height: auto;
   opacity: .8;
+  object-fit: fill
+}
+.main-intro-second > div{
+  width:25%
 }
 .main-intro-first-content {
   display: flex;
