@@ -1,7 +1,7 @@
 <template>
   <div id="default-layout">
     <default-header />
-    <Popular/>
+    <Popular />
     <Footer/>
     <router-view />
   </div>
