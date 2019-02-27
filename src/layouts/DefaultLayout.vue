@@ -1,6 +1,6 @@
 <template>
   <div id="default-layout">
-    <default-header />
+    <default-header : />
     <Footer/>
     <router-view />
   </div>
