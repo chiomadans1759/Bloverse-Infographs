@@ -137,8 +137,9 @@ ul li{
 	line-height:20px; 
 }
 
-.col li a:hover{ 
+.col li a:hover, .newsletter-social-links a:hover{ 
 	opacity:1;  
+  text-decoration: none; 
 }
 
 .newsletter-input{
@@ -150,17 +151,14 @@ ul li{
 	width:12rem; 
 	opacity:.7;
 	margin-bottom:30px;
+  color: #fff;
 }
 
 ::placeholder {
   color: #fff;
   opacity:1; 
 }
-
-.social-links li{
-	display:inline; 
-} 
-
+ 
 .col label{
 	opacity:.7;
 }
