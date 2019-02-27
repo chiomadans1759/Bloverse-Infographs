@@ -4,7 +4,7 @@
       <h6 v-if="card_type == 'article'">Top Article of the Month</h6>
       <h6 v-else>Last Photo Contest winner</h6>
     </div>
-    <div class="card" style="width:480px; height:438px;">
+    <div class="card" style="width:480px; height:380px;">
       <img src="./../assets/post-article.jpg" v-if="card_type == 'article'" :class="{ 'article_img-height': card_type == 'article'}" alt>
       <img src="./../assets/photo-contest.jpg" v-else :class="{ 'photo-img-height': card_type == 'photo'}" alt>
       <div class="card-body-title--content mt-2 ml-3">
@@ -26,52 +26,14 @@
       </div>
       <div class="row ml-3 mr-2 mb-4 mt-3">
         <p class="col-8 p-0 counts d-flex align-items-center justify-content-start">
-          <span class="mr-1 views">4k views</span>
-          <i class="fas fa-circle mx-2"></i>
-          <span class="comments">64 Comments</span>
+          <span class="mr-1 views">4k views</span> 
         </p>
         <b-link
           href="#foo"
           disabled
           class="col-4 pr-4 text-right ft-12 text-capitalize read-article"
         >Read Article</b-link>
-      </div>
-      <div class="row border-top border-bottom mx-0 pt-3 d-flex">
-        <div class="col-4 d-flex">
-          <p class="thumbs-up mr-4">
-            <span class="circle-border">
-              <i class="far fa-thumbs-up"></i>
-            </span>
-            <span class="count ml-1">18</span>
-          </p>
-          <p class="thumbs-down">
-            <span class="circle-border">
-              <i class="far fa-thumbs-down"></i>
-            </span>
-            <span class="count border-right pr-4 ml-1">1</span>
-          </p>
-        </div>
-        <div class="col-3">
-          <p class="share">
-            <span class="circle-border">
-              <i class="fas fa-share"></i>
-            </span>
-            <span class="count">11</span>
-          </p>
-        </div>
-        <div class="offset-1 col-4 d-flex justify-content-end">
-          <p class="share mr-1 pl-1">
-            <span class="circle-border">
-              <i class="far fa-bookmark"></i>
-            </span>
-          </p>
-          <p class="share mr-3">
-            <span class="option">
-              <i class="fas fa-ellipsis-h"></i>
-            </span>
-          </p>
-        </div>
-      </div>
+      </div> 
     </div>
   </main>
 </template>
@@ -140,8 +102,7 @@
   color: #096dd9;
 }
 
-#post-card .count,
-#post-card .option,
+#post-card .count, 
 #post-card .circle-border {
   display: inline-flex;
   justify-content: center;
@@ -153,13 +114,5 @@
   font-size: 4px;
   color: #096dd9;
 }
-
-#post-card .circle-border {
-  height: 25px;
-  width: 25px;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  color: #096dd9;
-}
-
+ 
 </style>
