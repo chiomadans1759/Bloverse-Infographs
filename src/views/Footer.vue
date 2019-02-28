@@ -63,7 +63,8 @@
  color:#fff; 
 } 
 
-#footer .newsletter-social-links>a, .footer-explore{ 
+#footer .newsletter-social-links>a, 
+#footer .footer-explore{ 
 	display:inline-flex;
 	justify-content: center;
 	align-items: center;
@@ -101,13 +102,13 @@
 	padding:60px 0;
 }
 
-#footer .container p { 
+#footer .container p{ 
 	margin:auto;
 	font-size:10px;
 	padding-bottom:15px;  
 }
 
-#footer .container p span {  
+#footer .container p span{  
 	font-size:14px; 
 	font-weight:600;
 }
@@ -137,7 +138,8 @@
 	line-height:20px; 
 }
 
-#footer .col li a:hover, .newsletter-social-links a:hover{ 
+#footer .col li a:hover, 
+#footer .newsletter-social-links a:hover{ 
 	opacity:1;  
   text-decoration: none; 
 }
@@ -154,7 +156,7 @@
   color: #fff;
 }
 
-#footer::placeholder {
+#footer ::placeholder {
   color: #fff;
   opacity:1; 
 }
