@@ -3,6 +3,8 @@
     <intro />
     <trending />
     <performance /> 
+    <Popular />
+    <Footer/>
   </div>
 </template>
 
@@ -10,12 +12,17 @@
 import intro from "@/views/intro.vue";
 import trending from "@/views/trending.vue"
 import performance from '@/views/performance.vue'
+import Footer from "@/views/Footer.vue";
+import Popular from "@/views/Popular.vue";
+
 export default {
   name: "default-layout",
   components: {
     intro,
     trending,
-    performance
+    performance,
+    Footer,
+    Popular
   }
 };
 </script>
@@ -24,3 +31,5 @@ export default {
   overflow-x:hidden
 }
 </style>
+
+
