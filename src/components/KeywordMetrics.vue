@@ -47,32 +47,32 @@ export default {
   color: #565656;
   font-weight: 600;
 }
-.metric-box-first {
+.keyword-metric .metric-box-first {
   padding: 16px 16px 0 16px;
   border-bottom: 1px solid rgba(184, 115, 115, 0.15);
 }
-.metric-box h5,
+.keyword-metric .metric-box h5,
 p {
   font-size: 14px;
   color: #565656;
 }
-.metric-box {
+.keyword-metric .metric-box {
   border: 1px solid rgba(184, 115, 115, 0.15);
   border-radius: 4px;
 }
-.metric-country {
+.keyword-metric .metric-country {
   padding: 16px;
 }
-.metric-country span {
+.keyword-metric .metric-country span {
   font-size: 14px;
 }
-.country-flag{
+.keyword-metric .country-flag{
 display: grid;
 grid-template-columns: repeat(5, 1fr);
 grid-row-gap: 12px;
 justify-items: center
 }
-.country-flag img{
+.keyword-metric .country-flag img{
     border:1px solid rgba(133, 117, 117, 0.534);
     height:20px;
     width:20px;
