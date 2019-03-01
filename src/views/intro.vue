@@ -116,7 +116,7 @@ export default {};
 .main-intro-second img {
   width: 100%;
   height: auto;
-  opacity: .8;
+  opacity: .45;
   object-fit: fill
 }
 .main-intro-second > div{
@@ -141,10 +141,9 @@ export default {};
 .main-intro-first-content button {
   border-radius: 4px;
   width: 172px;
-  height: 39px;
+  height: 35px;
   color: #096dd9;
   background: #ffffff;
   border: none;
-  /* box-shadow: 0 0.75rem 1.5rem rgba(15, 31, 51, 0.03); */
 }
 </style>

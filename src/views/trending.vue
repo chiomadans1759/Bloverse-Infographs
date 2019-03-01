@@ -1,4 +1,5 @@
 <template>
+<div class="main-gred">
   <div class="trending container mt-5">
     <h2>Trending</h2>
     <h4>See the most popular keywords used on our platform</h4>
@@ -13,6 +14,7 @@
         ></keywordMetric>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -40,7 +42,6 @@ export default {
         sum.push(data.quotes.total);
       });
       this.totalKeywords = sum.reduce((a, b) => a + b, 0);
-      console.log(this.totalKeywords);
     }
   },
   created() {
@@ -65,5 +66,10 @@ export default {
 }
 .trending-metrics {
   flex: 1;
+}
+.main-gred{
+   width:100vw;
+   max-height:100vh;
+   overflow: hidden;
 }
 </style>

@@ -22,7 +22,6 @@ export default {
   data() {
     return {
       countryNumber: {}
-
     };
   },
   methods: {
@@ -34,7 +33,6 @@ export default {
   },
   mounted() { 
     this.getTotalCountry();
-    console.log(this.endData[1])
   }
 };
 </script>
@@ -55,7 +53,7 @@ export default {
 }
 .metric-box h5,
 p {
-  font-size: 16px;
+  font-size: 14px;
   color: #565656;
 }
 .metric-box {
@@ -73,7 +71,6 @@ display: grid;
 grid-template-columns: repeat(5, 1fr);
 grid-row-gap: 12px;
 justify-items: center
-
 }
 .country-flag img{
     border:1px solid rgba(133, 117, 117, 0.534);

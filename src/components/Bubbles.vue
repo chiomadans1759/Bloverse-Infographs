@@ -1,12 +1,11 @@
 <template>
 <div class="bubble">
-  <svg width="100%" height="700"></svg>
+  <svg width="100%" height="650"></svg>
 </div>
 </template>
 
 <script>
 import * as d3 from 'd3'
-import endData from "@/utils/data.json";
 
 export default {
     props: ["endData"],
@@ -26,10 +25,10 @@ methods:{
      let centerY = 300;
      let datapoint = this.endData[0]
      let width = "650", height = "650"
-     let pack = d3.pack().size([800,610]).padding(1.5)  
+     let pack = d3.pack().size([480,480]).padding(1.2)  
      let forceCollide = d3.forceCollide(d => d.r + 1.5)
      let forceX = d3.forceX(width/1.8).strength(0.05)
-     let forceY = d3.forceY(height/2.1).strength(0.05)
+     let forceY = d3.forceY(height/2.4).strength(0.05)
      let vm = this
      vm.simulation = d3.forceSimulation()
         .force("x", forceX)
@@ -43,9 +42,9 @@ methods:{
     let nodes = pack(root).leaves().map(node => {
         const data = node.data;
         return {
-            x: centerX + (node.x - centerX) * 2, // magnify start position to have transition to center movement
+            x: centerX + (node.x - centerX) * 2, 
             y: centerY + (node.y - centerY) * 2,
-            r: 0, // for tweening
+            r: 0,
     radius: node.r,
     image: data.images,
     name: data.name,
@@ -109,8 +108,8 @@ methods:{
             .append("image")
             .attr("height", 1)
             .attr("width", 1)
-            .attr("object-position", "50%")
-            .attr("preserveAspectRatio", "none")
+            .attr("viewBox", "0 0 60 55")
+            .attr("preserveAspectRatio", "xMidYMin slice")
             .attr("xlink:href", function (d) {
                 return d.image
             })
@@ -141,9 +140,8 @@ methods:{
         let focusedNode
          vm.node.on('click', (currentNode) => {
 			d3.event.stopPropagation();
-			let currentTarget = d3.event.currentTarget; // the <g> el
+			let currentTarget = d3.event.currentTarget; 
 			if (currentNode === focusedNode) {
-				// no focusedNode or same focused node is clicked
 				return;
 			}
 			let lastNode = focusedNode;
@@ -167,9 +165,9 @@ methods:{
 			}
 			d3.transition().duration(2000).ease(d3.easePolyOut)
 				.tween('moveIn', () => {
-					let ix = d3.interpolateNumber(currentNode.x, 300);
-					let iy = d3.interpolateNumber(currentNode.y, 300);
-					let ir = d3.interpolateNumber(currentNode.r, 300 * 0.4);
+					let ix = d3.interpolateNumber(currentNode.x, 200);
+					let iy = d3.interpolateNumber(currentNode.y, 200);
+					let ir = d3.interpolateNumber(currentNode.r, 200 * 0.4);
 					return function (t) {
 						//tNode.fx = ix(t);
 						currentNode.fy = iy(t);
@@ -235,14 +233,14 @@ this.sendData()
 
 <style>
 .tooltip{
-
 background-color:white;
 border:.5px solid rgba(184, 115, 115, 0.15);
 padding:8px 20px;
 border-radius: 4px;
 display: flex;
 flex-direction: column;
-justify-content: space-around
+justify-content: space-around;
+cursor: pointer;
 }
 .tooltip p{
     margin:0;

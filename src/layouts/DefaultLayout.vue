@@ -2,17 +2,20 @@
   <div id="default-layout">
     <intro />
     <trending />
+    <performance /> 
   </div>
 </template>
 
 <script>
 import intro from "@/views/intro.vue";
 import trending from "@/views/trending.vue"
+import performance from '@/views/performance.vue'
 export default {
   name: "default-layout",
   components: {
     intro,
-    trending
+    trending,
+    performance
   }
 };
 </script>
