@@ -5,6 +5,9 @@ import App from '@/App'
 import router from '@/router'
 import plugins from '@/utils/plugins.js'
 import * as d3 from 'd3';
+import vSelect from 'vue-select'
+
+Vue.component('v-select', vSelect)
 
 Vue.config.productionTip = false
 
