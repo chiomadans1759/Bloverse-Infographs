@@ -59,67 +59,67 @@ export default {
 </script>
 
 <style scoped>
-.main-container {
+.performance .main-container {
   display: flex;
 }
-.performance-container {
+.performance .performance-container {
   flex: 2.5;
 }
-.number-container {
+.performance .number-container {
   flex: 1;
 }
 .performance {
   background-color: #fdfdfd;
 }
-.container h2 {
+.performance .container h2 {
   font-size: 24px;
 }
-.container h4 {
+.performance .container h4 {
   font-size: 14px;
   color: #868686;
 }
-.legend {
+.performance .legend {
   margin: 40px 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   width: 90%;
 }
-.circle {
+.performance .circle {
   height: 12px;
   width: 12px;
   border-radius: 50%;
   display: inline-block;
 }
-.blue {
+.performance .blue {
   background-color: #096dd9;
 }
-.purple {
+.performance .purple {
   background-color: #a74ef4;
 }
-.green {
+.performance .green {
   background-color: #4ef49b;
 }
-.users {
+.performance .users {
   font-size: 12px;
   color: #565656;
   padding-left: 8px;
 }
-.legend-body {
+.performance .legend-body {
   display: flex;
   height: 20px;
   align-items: center;
 }
-.bax {
+.performance .bax {
   background: #fff !important;
   color: #252525 !important;
   border: 1px solid rgba(184, 115, 115, 0.15) !important;
   border-radius: 4px;
 }
-.perf-area {
+.performance .perf-area {
   width: 90%;
 }
-.user-text{
+.performance .user-text{
   font-size: 16px;
   font-weight: 600;
   text-align: center

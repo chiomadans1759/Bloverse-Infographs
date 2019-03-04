@@ -51,30 +51,20 @@ export default {
 </script>
 
 <style scoped>
-.trending {
-  width: 100vw;
-  max-height: 100vh;
-  overflow: hidden;
-}
-
 .trending h2 {
   font-size: 24px;
 }
-
 .trending h4 {
   font-size: 14px;
   color: #868686;
 }
-
-.trending .trending-container {
+.trending-container {
   display: flex;
 }
-
-.trending .trending-bubble {
+.trending-bubble {
   flex: 2.5;
 }
-
-.trending .trending-metrics {
+.trending-metrics {
   flex: 1;
 }
 </style>

@@ -27,35 +27,35 @@ data(){
 </script>
 
 <style scoped>
-.user1{
+.active-user-container .user1{
     position: relative;
     top:240px 
 }
-.user2{
+.active-user-container .user2{
     position: relative;
     right:240px;
     top:20px 
 }
-.user3{
+.active-user-container .user3{
     position: relative;
     right:160px;
     bottom:270px
 }
-.user4{
+.active-user-container .user4{
     position: relative;
     bottom:420px
 }
-.user5{
+.active-user-container .user5{
     position: relative;
     left:160px;
     bottom:440px
 }
-.user6{
+.active-user-container .user6{
     position: relative;
     left:200px;
     bottom:400px
 }
-.user7{
+.active-user-container .user7{
     position: relative;
     left:195px;
     bottom:340px;
@@ -63,10 +63,10 @@ data(){
     flex-direction: row-reverse !important;
     justify-content: center !important
 }
-.active-text7{
+.active-user-container .active-text7{
     padding-left: 10px
 }
-.user8{
+.active-user-container .user8{
     position: relative;
     left:110px;
     bottom:320px;
@@ -74,11 +74,11 @@ data(){
     flex-direction: row-reverse !important;
     justify-content: center !important
 }
-.active-text8{
+.active-user-container .active-text8{
     padding-left: 10px;
     padding-top: 15px
 }
-.user9{
+.active-user-container .user9{
     position: relative;
     left:0px;
     bottom:350px;
@@ -86,11 +86,11 @@ data(){
     flex-direction: row-reverse !important;
     justify-content: center !important
 }
-.active-text9{
+.active-user-container .active-text9{
     padding-left: 10px;
     padding-top: 25px
 }
-.user10{
+.active-user-container .user10{
     position: relative;
     border-bottom-right-radius:110px;
     bottom:400px;
@@ -99,82 +99,82 @@ data(){
     flex-direction: row-reverse !important;
     justify-content: center !important
 }
-.active-text10{
+.active-user-container .active-text10{
     padding-left: 1px;
     padding-top: 15px
 }
 
-.active{
+.active-user-container .active{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.active-user-container{
+ .active-user-container{
     width:60vw;
     margin:-50px auto 140px;
     height:700px
 }
-.active-usersa{
+.active-user-container .active-usersa{
     width: 100%;
     height: 80%;
     margin-bottom: 150px;
 }
-.size{
+.active-user-container .size{
    border-radius: 50%;
    object-fit: cover;
    object-position: center;
    border: 1px solid rgba(184, 115, 115, 0.15) !important
 }
-.country10{
+.active-user-container .country10{
  width:25px;
 height:25px
 }
-.country9{
+.active-user-container .country9{
     width:30px;
     height:30px
 }
-.country8{
+.active-user-container .country8{
     width:44px;
     height:44px
 }
-.country7{
+.active-user-container .country7{
     width:48px;
     height:48px
 }
-.country6{
+.active-user-container .country6{
     width:52px;
     height:52px
 }
-.country5{
+.active-user-container .country5{
     width:58px;
     height:58px
 }
-.country4{
+.active-user-container .country4{
     width:60px;
     height:60px
 }
-.country3{
+.active-user-container .country3{
     width: 80px;
     height: 80px;
 }
-.country2{
+.active-user-container .country2{
     width: 100px;
     height: 100px;
 }
-.country1{
+.active-user-container .country1{
     width: 200px;
     height: 200px;
 }
-.country-text{
+.active-user-container .country-text{
     font-size: 12px;
     color:#707070;
     font-weight: 600
 }
-.percentage-text{
+.active-user-container .percentage-text{
     font-size: 12px;
     color: #868686;
 }
-.active-text-container{
+.active-user-container .active-text-container{
     display: flex;
     flex-direction: column;
     align-items: center;
