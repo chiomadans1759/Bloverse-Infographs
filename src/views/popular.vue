@@ -1,12 +1,12 @@
 <template>
 	<section>
 		<div id="popular" class="container mt-5 pt-3">
-			<div class="d-flex ml-4 pl-2">
+			<div class="d-flex">
 				<p>Popular<br>
 					<span>Take a look at how our global community interacts</span>
 				</p>
 			</div> 
-			<div class=" d-flex justify-content-end mb-3 pr-4 mr-3">  
+			<div class=" d-flex justify-content-end mb-3">  
 				<select class="select">
 					<option value="" hidden>Nigeria</option>
 					<option value="1">Ghana</option>
@@ -16,22 +16,22 @@
 					<option value="5">London</option>
 				</select>
 			</div>
-			<div class="d-flex justify-content-around mb-5">
-				<PostCard card_type="article"/>
-				<PostCard card_type="photo"/> 
+			<div class="row d-flex mb-5">
+				<PostCard class="col-6" card_type="article"/>
+				<PostCard class="col-6" card_type="photo"/> 
 			</div>
-			<div class="d-flex justify-content-around mb-5">
-				<UserCard card_type="content-creator"/> 
-				<UserCard card_type="content-consumer"/> 
+			<div class="d-flex justify-content-around mb-5 pb-4">
+				<UserCard class="col-5" card_type="content-creator"/> 
+				<UserCard class="col-5" card_type="content-consumer"/> 
 			</div> 
 		</div> 
 	</section>
 </template> 
 
 <style scoped> 
+
 #popular{
-	flex-direction:column;
-	font-family:Montserrat; 
+	flex-direction:column; 
 } 
 
 #popular p{
@@ -51,7 +51,7 @@
 	border-radius:4px; 
   padding:5px;  
 } 
-
+ 
 </style>
 
 <script> 

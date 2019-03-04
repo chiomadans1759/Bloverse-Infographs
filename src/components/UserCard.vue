@@ -4,7 +4,7 @@
       <h6 v-if="card_type == 'content-creator'">Top Content Creator of the Month</h6> 
 			<h6 v-else>Top Content Consumer of the Month</h6> 
     </div>
-    <div class="card" style="width:380px; height:420px;">
+    <div class="card" style="height:420px;">
       <img v-if="card_type == 'content-creator'" class="image-blur" src="./../assets/content-creator.jpg" alt>
       <img v-else class="image-blur" src="./../assets/content-consumer.jpg" alt>
 			<img v-if="card_type == 'content-creator'" class="image-avarter" src="./../assets/content-creator.jpg" alt>
@@ -14,8 +14,7 @@
 				<span class="font-weight-bold name">Johndoe</span>
 				<i class="fas fa-circle mx-2 mt-1"></i> 
 				<span class="time mt-1">Nigeria</span>
-			</div> 
-
+			</div>
 			<div v-if="card_type == 'content-creator'" class="metrics pl-4 mt-1"> 
 				<div class="creator-metrics pt-3">
 					<p>Points: <span class="ml-2">289.9</span></p>  
@@ -48,7 +47,6 @@
 					<span class="country-count-of mx-1">last Month</span> 
 				</div>
 			</div>
-
 			<div v-else class="metrics pl-4 mt-1"> 
 				<div class="creator-metrics pt-3">
 					<p>Total Views: <span class="ml-2">500, 000</span></p>  
@@ -113,6 +111,7 @@
 	filter: blur(2px);
   -webkit-filter: blur(2px); 
 } 
+
 #user-card .image-avarter{
 	height:80px;
 	width:80px;	
@@ -175,6 +174,7 @@
 #user-card.last-month{
 	color:#868686;
 }
+
 #user-card .country-count{
 	font-size: 14px; 
   color: #252525;
@@ -214,4 +214,5 @@
 #user-card .fa-twitter{
 	color:#38A1F3;
 }
+
 </style>
