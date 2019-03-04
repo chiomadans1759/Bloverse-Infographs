@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import intro from "@/views/intro.vue";
-import trending from "@/views/trending.vue"
-import performance from '@/views/performance.vue'
+import intro from "@/views/Intro.vue";
+import trending from "@/views/Trending.vue"
+import performance from '@/views/Performance.vue'
 import Footer from "@/views/Footer.vue";
 import Popular from "@/views/Popular.vue";
 
