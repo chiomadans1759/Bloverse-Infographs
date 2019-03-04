@@ -23,7 +23,7 @@
 			<div class="d-flex justify-content-around mb-5">
 				<UserCard card_type="content-creator"/> 
 				<UserCard card_type="content-consumer"/> 
-			</div>
+			</div> 
 		</div> 
 	</section>
 </template> 
