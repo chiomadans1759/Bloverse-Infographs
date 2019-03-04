@@ -164,5 +164,4 @@
 #footer .col label{
 	opacity:.7;
 }
-
 </style>

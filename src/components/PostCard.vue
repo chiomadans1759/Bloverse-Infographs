@@ -1,6 +1,6 @@
 <template>
   <main id="post-card">
-    <div class="row container">
+    <div class="row container mb-3">
       <h6 v-if="card_type == 'article'">Top Article of the Month</h6>
       <h6 v-else>Last Photo Contest winner</h6>
     </div>
@@ -48,9 +48,13 @@
 </script>
 
 <style scoped>
+#post-card{
+  font-family:Montserrat;
+}
 #post-card h6{
   font-size:16px;
   font-weight:bold;
+  color:#565656;
 }
 
 #post-card img {
