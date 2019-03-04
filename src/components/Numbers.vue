@@ -28,49 +28,49 @@ export default {};
 .number-metric {
   margin: 25% auto;
 }
-.circle {
+.number-metric .circle {
   height: 12px;
   width: 12px;
   border-radius: 50%;
   background-color: #096dd9;
 }
-.metric-container-first span {
+.number-metric .metric-container-first span {
   border: 1px solid rgba(184, 115, 115, 0.15) !important;
   border-radius: 4px;
   padding: 3px 6px;
   font-size: 12px;
 }
-.metric-container-first {
+.number-metric .metric-container-first {
   display: flex;
   align-items: center;
   width: 39%;
   justify-content: space-between;
   margin-bottom: 10px;
 }
-.metric-container-second {
+.number-metric .metric-container-second {
   border: 1px solid rgba(184, 115, 115, 0.15) !important;
   border-radius: 4px;
   display: inline-block;
 }
-.metric-container-second h5 {
+.number-metric .metric-container-second h5 {
   font-size: 14px;
 }
-.metric-container-second span {
+.number-metric.metric-container-second span {
   font-size: 14px;
   font-weight: 600;
 }
-.first {
+.number-metric .first {
   padding: 16px 16px 0;
 }
-.second {
+.number-metric .second {
   padding: 0 16px 16px;
 }
-.middle-num {
+.number-metric .middle-num {
   text-align: center;
   display: flex;
   justify-content: center;
 }
-.metric-head {
+.number-metric .metric-head {
   color: #565656;
   font-weight: 600;
 }
