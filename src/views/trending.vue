@@ -1,6 +1,6 @@
 <template>
-<div class="main-gred">
-  <div class="trending container mt-5">
+<div class="trending">
+  <div class="container mt-5">
     <h2>Trending</h2>
     <h4>See the most popular keywords used on our platform</h4>
     <div class="trending-container mt-4">
@@ -51,25 +51,30 @@ export default {
 </script>
 
 <style scoped>
+.trending {
+  width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
 .trending h2 {
   font-size: 24px;
 }
+
 .trending h4 {
   font-size: 14px;
   color: #868686;
 }
-.trending-container {
+
+.trending .trending-container {
   display: flex;
 }
-.trending-bubble {
+
+.trending .trending-bubble {
   flex: 2.5;
 }
-.trending-metrics {
+
+.trending .trending-metrics {
   flex: 1;
-}
-.main-gred{
-   width:100vw;
-   max-height:100vh;
-   overflow: hidden;
 }
 </style>
