@@ -5,12 +5,15 @@
 </template>
 
 <script>
+
 export default {
   name: 'App'
 }
 </script>
 
 <style>
+
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
 #app {
