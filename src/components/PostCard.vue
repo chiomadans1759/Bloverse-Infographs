@@ -51,6 +51,7 @@
 #post-card{
   font-family:Montserrat;
 }
+
 #post-card h6{
   font-size:16px;
   font-weight:bold;

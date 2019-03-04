@@ -98,10 +98,7 @@
 }
 </script>
 
-<style scoped>
-#usercard body{
-	font-family:Montserrat;
-}
+<style scoped> 
 
 #user-card h6{
   font-size:16px;

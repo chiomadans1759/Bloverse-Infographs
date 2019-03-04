@@ -2,7 +2,7 @@
 	<section>
 		<div id="popular" class="container mt-5 pt-3">
 			<div class="d-flex ml-4 pl-2">
-				<p>HeatMap<br>
+				<p>HeatMapgit<br>
 					<span>Take a look at how our global community interacts</span>
 				</p>
 			</div> 
