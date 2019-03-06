@@ -97,7 +97,6 @@
 </template> 
 
 <style scoped> 
- 
 #heat-map .heading p{
   font-size:24px;
   color:#252525;

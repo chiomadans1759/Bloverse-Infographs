@@ -1,16 +1,16 @@
 <template>
   <main id="post-card">
-    <div class="row container mb-3">
+    <div class="mb-3">
       <h6 v-if="card_type == 'article'">Top Article of the Month</h6>
       <h6 v-else>Last Photo Contest winner</h6>
     </div>
-    <div class="card" style="width:480px; height:380px;">
+    <div class="card" style="height:380px;">
       <img src="./../assets/post-article.jpg" v-if="card_type == 'article'" :class="{ 'article_img-height': card_type == 'article'}" alt>
       <img src="./../assets/photo-contest.jpg" v-else :class="{ 'photo-img-height': card_type == 'photo'}" alt>
       <div class="card-body-title--content mt-2 ml-3">
         <p class="card-body-category" v-show="card_type == 'article'">Technology</p>
-        <h5 class="card-title my-3 font-weight-bold" v-show="card_type == 'article'">
-          Lorem ipsum dolor sit amet, vel accumsan iberaviss ex,
+        <h5 class="card-title my-3 pr-2 font-weight-bold" v-show="card_type == 'article'">
+          Lorem ipsum dolor sit amet, vel accumsan iberavis ex,
           ea nec elaboraret interpret
         </h5>
         <div class="mt-3 mb-3 d-flex count justify-content-start">
@@ -48,10 +48,7 @@
 </script>
 
 <style scoped>
-#post-card{
-  font-family:Montserrat;
-}
-#post-card h6{
+#post-card h6 {
   font-size:16px;
   font-weight:bold;
   color:#565656;
