@@ -99,33 +99,33 @@
 <style scoped> 
  
 #heat-map .heading p{
-font-size:24px;
-color:#252525;
+  font-size:24px;
+  color:#252525;
 }
 
 #heat-map .heading span{
-font-size:14px;
-color:#868686;
+  font-size:14px;
+  color:#868686;
 }
 
 #heat-map .first-circle {
-color: #759BC4;
+  color: #759BC4;
 }
 
 #heat-map .second-circle {
-color: #6895C6;
+  color: #6895C6;
 }
 
 #heat-map .third-circle {
-color:#3781D0;
+  color:#3781D0;
 }
 
 #heat-map .fourth-circle {
-color: #2579D4;
+  color: #2579D4;
 }
 
 #heat-map .fifth-circle {
-color: #096DD9;
+  color: #096DD9;
 }
 
 #heat-map .sixth-circle {
