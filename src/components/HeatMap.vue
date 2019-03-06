@@ -16,9 +16,11 @@
 </style>
 
 <script> 
-export default{    
-} 
- google.charts.load('current', {
+export default {    
+  name: "heat-map",
+  methods: {
+    init() {
+      google.charts.load('current', {
         'packages':['geochart'],
         // Note: you will need to get a mapsApiKey for your project.
         // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
@@ -43,4 +45,10 @@ export default{
 
         chart.draw(data, options);
       }
+    }
+  },
+  created() {
+    this.init()
+  }
+}
 </script>
