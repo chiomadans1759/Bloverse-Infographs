@@ -23,8 +23,8 @@
 						<li>
 							<a href="https://www.bloverse.com/creators/photocontest" target="_blank">About Photo Contest</a>
 						</li>
-						<li>
-							<router-link to="">Our Webinars</router-link>
+						<li >
+							<router-link style="color:#B7B7B7;" to="">Our Webinars</router-link>
 						</li> 
 					</ul>
 				</div>
@@ -50,7 +50,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<p><span>bloverse</span> 2018. All Rights Reserved</p>
+				<p><span class="mr-1">bloverse </span> 2018. All Rights Reserved</p>
 			</div>
 		</div>		
   </footer>
@@ -71,7 +71,7 @@
 	border-radius: 50%;
 	height:25px;
 	width:25px; 
-	font-size:9px;
+	font-size:10px;
 	color:#fff;
 } 
 
@@ -104,19 +104,22 @@
 #footer .container p{ 
 	margin:auto;
 	font-size:10px;
-	padding-bottom:15px;  
+	padding-bottom:15px; 
+	font-weight:200; 
+	color:rgb(236, 233, 233);
 }
 
 #footer .container p span{  
 	font-size:14px; 
-	font-weight:600;
+	font-weight:600; 
+	color:#fff;
 }
 
 #footer ul li{ 
 	list-style-type:none;
 } 
 
-#footer .col{
+#footer .col, .newsletter h6{
 	font-size:12px;
 	font-weight: 600; 
 }
@@ -163,4 +166,5 @@
 #footer .col label{
 	opacity:.7;
 }
+
 </style>
