@@ -1,7 +1,7 @@
 <template>
   <footer id="footer">
-		<div class=" container">
-			<div class="row  footer-top-links">
+		<div class="container">
+			<div class="row footer-top-links">
 				<div  class="col">
 					<ul>Quick Links 
 						<li>
@@ -58,9 +58,8 @@
 
 <style>
 #footer {
- background:#096DD9; 
- font-family:Montserrat;
- color:#fff; 
+	background: #096DD9; 
+	color: #ffffff; 
 } 
 
 #footer .newsletter-social-links>a, 
