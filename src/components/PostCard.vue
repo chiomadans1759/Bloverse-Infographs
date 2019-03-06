@@ -48,12 +48,7 @@
 </script>
 
 <style scoped>
-
-#post-card{
-  font-family:Montserrat;
-}
-
-#post-card h6{
+#post-card h6 {
   font-size:16px;
   font-weight:bold;
   color:#565656;

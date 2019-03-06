@@ -58,7 +58,7 @@
 import PostCard from '@/components/PostCard.vue';
 import UserCard from '@/components/UserCard.vue';
 
-export default{
+export default {
 	components: {PostCard, UserCard},
 	data() {
 		return { 

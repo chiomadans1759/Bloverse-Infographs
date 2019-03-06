@@ -13,7 +13,7 @@ import Visitors from "@/views/Visitors.vue";
 
 export default {
   name: "default-layout",
-  components: { Footer, Popular, Visitors}
+  components: { Footer, Popular, Visitors }
 }
-</script> 
- 
+</script>
+
