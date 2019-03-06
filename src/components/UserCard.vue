@@ -113,6 +113,7 @@
 	filter: blur(2px);
   -webkit-filter: blur(2px); 
 } 
+
 #user-card .image-avarter{
 	height:80px;
 	width:80px;	
@@ -175,6 +176,7 @@
 #user-card.last-month{
 	color:#868686;
 }
+
 #user-card .country-count{
 	font-size: 14px; 
   color: #252525;
