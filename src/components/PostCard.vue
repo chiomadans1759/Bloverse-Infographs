@@ -54,6 +54,7 @@
 #post-card h6{
   font-size:16px;
   font-weight:bold;
+  color:#565656;
 }
 
 #post-card img {
