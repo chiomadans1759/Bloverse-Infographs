@@ -3,7 +3,7 @@
     <general-header class="general-header" />
     <section class="flex-container">
       <div class="main-intro-first">
-        <div class="main-intro-first-content">
+        <div class="container main-intro-first-content">
           <h1>The Bloverse Story at a Glance</h1>
           <h4>Interaction from our global community</h4>
           <button>Join Bloverse</button>
@@ -148,7 +148,6 @@ export default {
   height: 100%;
   justify-content: center;
   color: #ffffff;
-  margin-left: 80px;
 }
 .main-intro .main-intro-first-content h1 {
   font-size: 48px;
