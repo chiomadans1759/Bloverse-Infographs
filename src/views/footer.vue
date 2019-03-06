@@ -1,7 +1,7 @@
 <template>
   <footer id="footer">
 		<div class=" container">
-			<div class="row  footer-top-links">
+			<div class="row  footer-top-links d-flex">
 				<div  class="col">
 					<ul>Quick Links 
 						<li>
@@ -42,8 +42,8 @@
 					<input class="newsletter-input" type="text" placeholder="Enter Your Email Adress"> 
 					<h6>Follow Us</h6>
 					<div class="newsletter-social-links"> 
-						<a href="https://twitter.com/bloverse_world" target="_blank"><i class="fab fa-twitter"></i></a>
 						<a href="https://www.facebook.com/bloverse" target="_blank"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://twitter.com/bloverse_world" target="_blank"><i class="fab fa-twitter"></i></a>
 						<a href="https://www.linkedin.com/company/bloverse1/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 						<a href="https://www.instagram.com/bloverse/" target="_blank"><i class="fab fa-instagram"></i></a> 
 					</div>
@@ -57,6 +57,7 @@
 </template> 
 
 <style>
+
 #footer {
  background:#096DD9; 
  font-family:Montserrat;
@@ -83,11 +84,11 @@
 }
 
 #footer .newsletter-social-links>a:nth-child(1){
-	background: #33CCFF;
+	background: #3B5998;
 }
 
 #footer .newsletter-social-links>a:nth-child(2){
-	background: #3B5998;
+	background: #33CCFF;
 }
 
 #footer .newsletter-social-links>a:nth-child(3){
@@ -163,5 +164,11 @@
  
 #footer .col label{
 	opacity:.7;
+}
+
+@media screen and (max-width: 620px) {
+   .footer-top-links{
+		 flex-direction:column; 
+	 }
 }
 </style>

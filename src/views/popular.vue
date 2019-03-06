@@ -17,12 +17,12 @@
 				</select>
 			</div>
 			<div class="row d-flex mb-5">
-				<PostCard class="col-6" card_type="article"/>
-				<PostCard class="col-6" card_type="photo"/> 
+				<PostCard class="col-md-6" card_type="article"/>
+				<PostCard class="col-md-6" card_type="photo"/> 
 			</div>
-			<div class="d-flex justify-content-around mb-5 pb-4">
-				<UserCard class="col-5" card_type="content-creator"/> 
-				<UserCard class="col-5" card_type="content-consumer"/> 
+			<div class="row d-flex justify-content-around mb-5 pb-4">
+				<UserCard class="col-md-5" card_type="content-creator"/> 
+				<UserCard class="col-md-5" card_type="content-consumer"/> 
 			</div> 
 		</div> 
 	</section>
