@@ -1,26 +1,29 @@
 <template>
-	<section>
-		<div id="popular" class="container mt-5 pt-3">
+	<section class="border-top">
+		<div id="popular" class="container">
 			<div class="d-flex">
 				<p>Popular<br>
 					<span>Take a look at how our global community interacts</span>
 				</p>
 			</div> 
-			<div class=" d-flex justify-content-end mb-3">  
-				<select class="select">
-					<option value="" hidden>Nigeria</option>
-					<option value="1">Ghana</option>
-					<option value="2">Australia</option>
-					<option value="3">South Africa</option>
-					<option value="4">Egypt</option>
-					<option value="5">London</option>
-				</select>
-			</div>
+			<div class="dropdown d-flex justify-content-end mb-2">
+				<b-dropdown
+					class="bax select"
+					id="ddown"
+					text="Nigeria"
+					size="sm"
+					variant="bax">
+					<b-dropdown-item>Nigeria</b-dropdown-item>
+					<b-dropdown-item>Australia</b-dropdown-item>
+					<b-dropdown-item>UK</b-dropdown-item>
+					<b-dropdown-item>Ghana</b-dropdown-item>
+				</b-dropdown>
+			</div> 
 			<div class="row d-flex mb-5">
 				<PostCard class="col-6" card_type="article"/>
 				<PostCard class="col-6" card_type="photo"/> 
 			</div>
-			<div class="d-flex justify-content-around mb-5 pb-4">
+			<div class="d-flex justify-content-around">
 				<UserCard class="col-5" card_type="content-creator"/> 
 				<UserCard class="col-5" card_type="content-consumer"/> 
 			</div> 
@@ -31,7 +34,8 @@
 <style scoped> 
 
 #popular{
-	flex-direction:column; 
+	flex-direction:column;
+	padding:64px 0;
 } 
 
 #popular p{
@@ -44,12 +48,11 @@
 	color:#868686;
 }
 
-#popular .select { 
-	width:5rem;  
+#popular .select {  
   font-size:12px;
 	margin:0; 
-	border-radius:4px; 
-  padding:5px;  
+	border-radius:4px;  
+	border:1px solid #ccc; 
 } 
  
 </style>
