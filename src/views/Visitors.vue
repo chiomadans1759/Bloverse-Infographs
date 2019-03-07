@@ -1,6 +1,6 @@
 <template>
 	<section>
-		<HeatMap/> 
+		<HeatMap class="heatmap border-top"/> 
 	</section>
 </template> 
 
@@ -11,3 +11,9 @@ export default {
 	components: { HeatMap }
 }
 </script>
+
+<style>
+	.heatmap{
+		padding:64px 0;
+	}
+</style>

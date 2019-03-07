@@ -1,19 +1,19 @@
 <template>
 	<section>
-		<div id="heat-map" class="container mt-5 pt-3">
+		<div id="heat-map" class="container">
 			<div class="row heading">
 				<p>HeatMap<br>
 					<span>Take a look at how our global community interacts</span>
 				</p>
 			</div> 
       <div class="row">
-        <div class="col-9"> 
+        <div class="col-9 geochart"> 
           <GChart type="GeoChart" :data="chartData" :options="chartOptions" ref="chartData"/>
-          <div class=" row justify-content-end mr-2 total-users">
+          <div class=" row justify-content-end mr-1 total-users">
             <div class="card col-3 py-2">
-              <div class="row">
+              <div class="row pl-2">
                 <div class="text-left br-5">Total Users:</div>
-                <div class="text-right font-weight-bold total">5,000,350</div>
+                <div class="text-right font-weight-bold total ml-3">5,000,350</div>
               </div>
             </div> 
           </div> 
@@ -21,45 +21,50 @@
         <div class="col-3 mt-4">
           <p class="country-metrics mb-4">Country Metrics</p>
           <div class="d-flex align-items-center br-5 font-weight-bold mb-2">
-            <span class="second-circle fas fa-circle mr-3"></span>
-            <div class=" d-flex justify-content-end">  
-              <select class="select">
-                <option value="1" >Australia</option>
-                <option value="2">Ghana</option>
-                <option value="3">Nigeria</option>
-                <option value="4">South Africa</option> 
-              </select>
-            </div>
+            <span class="second-circle fas fa-circle mr-3"></span> 
+            <div class="dropdown select border d-flex justify-content-end">
+              <b-dropdown
+                class="bax "
+                id="ddown"
+                text="Nigeria"
+                size="sm"
+                variant="bax">
+                <b-dropdown-item>Nigeria</b-dropdown-item>
+                <b-dropdown-item>Australia</b-dropdown-item>
+                <b-dropdown-item>UK</b-dropdown-item>
+                <b-dropdown-item>Ghana</b-dropdown-item>
+              </b-dropdown>
+            </div> 
           </div>
           <div class="card">
             <div class="border-bottom mt-3">
               <div class="d-flex">
-                <div class="col-8 font-weight-bold title">Consumers:</div>
-                <div class="col-4 font-weight-bold value">219K</div>
+                <div class="col-8 title">Consumers:</div>
+                <div class="col-4 value">219K</div>
               </div>
               <div class="d-flex mt-2 mb-3">
-                <div class="col-8 br-5 font-weight-bold title">Creators:</div>
-                <div class="col-4 font-weight-bold value">416K</div>
+                <div class="col-8 br-5 title">Creators:</div>
+                <div class="col-4 value">416K</div>
               </div>               
             </div> 
             <div class="border-bottom mt-3">
               <div class="d-flex">
-                <div class="col-8 font-weight-bold title">Total Articles:</div>
-                <div class="col-4 font-weight-bold value">500K</div>
+                <div class="col-8 title">Total Articles:</div>
+                <div class="col-4 value">500K</div>
               </div>
               <div class="d-flex mt-2 mb-2">
-                <div class="col-8 br-5 font-weight-bold title">Total Views:</div>
-                <div class="col-4 font-weight-bold value">786K</div>
+                <div class="col-8 br-5 title">Total Views:</div>
+                <div class="col-4 value">786K</div>
               </div> 
               <div class="d-flex mb-3">
-                <div class="col-8 br-5 font-weight-bold title">Total Comments:</div>
-                <div class="col-4 font-weight-bold value">316K</div>
+                <div class="col-8 br-5 title">Total Comments:</div>
+                <div class="col-4 value">316K</div>
               </div>               
             </div> 
             <div class="border-bottom mt-3">
               <div class="d-flex">
-                <div class="col-8 font-weight-bold title">Total Shares:</div>
-                <div class="col-4 font-weight-bold value">500K</div>
+                <div class="col-8 title">Total Shares:</div>
+                <div class="col-4 value">500K</div>
               </div>
               <div class="d-flex ml-3 my-3">
                 <div class="social-shares"> 
@@ -77,12 +82,12 @@
               </div>               
             </div> 
             <div class="text-center mt-3">
-              <p class="font-weight-bold title">User Engagement Rate <br><span class="font-weight-bold value">98.3%</span></p>
+              <p class="title">User Engagement Rate <br><span class="value">98.3%</span></p>
             </div>
           </div>
         </div>
       </div> 
-      <div class="row mt-3 col-lg-8 col-xl-8 pb-5">  
+      <div class="row mt-3 col-lg-8 col-xl-8 color-scale">  
         <div class="">
           <span class="first-circle fas fa-circle"></span> UK
           <span class="second-circle fas fa-circle ml-4"></span> Kenya
@@ -119,6 +124,14 @@
   color:#3781D0;
 }
 
+#heat-map .geochart{
+  margin-left:-20px;
+}
+
+#heat-map .color-scale{
+  margin-left:-30px;
+}
+
 #heat-map .fourth-circle {
   color: #2579D4;
 }
@@ -133,12 +146,7 @@
 
 #heat-map .total-users{
   margin-top:-45px;
-  color:#565656; 
-}
-
-#heat-map .total-users{
-  margin-top:-45px;
-  color:#252525;
+  color:#252525; 
 }
 
 #heat-map .country-metrics{
@@ -147,22 +155,22 @@
   font-weight:bold;
 }
 
-#heat-map .select { 
-  width:auto;  
+#heat-map .select {  
   font-size:12px;
   margin:0; 
-  border-radius:4px; 
-  padding:2px;  
+  border-radius:5px; 
 } 
 
 #heat-map .title{
   color:#565656;
   font-size:  14px;
+  font-weight:500;
 }
 
 #heat-map .value{
   color:#252525;
   font-size:14px;
+  font-weight:600;
 }
 
 #heat-map .social-shares{
@@ -224,7 +232,7 @@ export default {
         tooltip: {
           textStyle: {
             color: '#868686', 
-            cornerRadius: 5,
+            cornerRadius: "5px",
             fontSize:12
           }
         },

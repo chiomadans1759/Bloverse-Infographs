@@ -12,7 +12,8 @@
 					id="ddown"
 					text="Nigeria"
 					size="sm"
-					variant="bax">
+					variant="bax"
+				>
 					<b-dropdown-item>Nigeria</b-dropdown-item>
 					<b-dropdown-item>Australia</b-dropdown-item>
 					<b-dropdown-item>UK</b-dropdown-item>
