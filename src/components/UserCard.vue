@@ -13,7 +13,7 @@
 			</div>
 			<img v-if="card_type == 'content-creator'" class="image-avarter" src="./../assets/content-creator.jpg" alt>
       <img v-else class="image-avarter" src="./../assets/content-consumer.jpg" alt>
-			<p class="card-body-category" v-show="card_type == 'content-creator'">Follow</p> 
+			<button class="card-body-category" v-show="card_type == 'content-creator'">Follow</button> 
 			<div class="mt-3 d-flex count justify-content-start align-items-center"> 
 				<span class="font-weight-bold name">Johndoe</span>
 				<i class="fas fa-circle mx-2 mt-1"></i> 
@@ -41,12 +41,12 @@
 					<p>Published Articles: <span class="ml-2">2, 899</span></p>  
 				</div>
 				<div class="mt-0 d-flex align-items-center">
-					<i class="fas fa-rocket mr-3 this-month"></i> 
+					<i class="fal fa-rocket mr-3 this-month"></i> 
 					<span class="country-count">50</span>
 					<span class="country-count-of mx-1">this Month</span> 
 				</div> 
 				<div class="mt-1 mb-3 d-flex align-items-center">
-					<i class="fas fa-rocket mr-3 last-month"></i> 
+					<i class="fal fa-rocket mr-3 last-month"></i> 
 					<span class="country-count">38</span>
 					<span class="country-count-of mx-1">last Month</span> 
 				</div>
@@ -56,12 +56,12 @@
 					<p>Total Views: <span class="ml-2">500, 000</span></p>  
 				</div> 
 				<div class="mt-0 d-flex align-items-center">
-					<i class="fas fa-eye mr-3 this-month"></i> 
+					<i class="fal fa-eye mr-3 this-month"></i> 
 					<span class="country-count">280, 000</span>
 					<span class="country-count-of mx-1">this Month</span> 
 				</div> 
 				<div class="mt-2 mb-3 d-flex align-items-center"> 
-					<i class="fas fa-eye mr-3 last-month"></i>
+					<i class="fal fa-eye mr-3 last-month"></i>
 					<span class="country-count">220, 000</span>
 					<span class="country-count-of mx-1">last Month</span> 
 				</div>
@@ -73,17 +73,17 @@
 						<i class="fab fa-facebook-square"></i>
 						<span class="ml-2">2, 300</span>
 					</div>
-					<div class="social-shares ml-4"> 
+					<div class="social-shares ml-3"> 
 						<i class="fab fa-twitter"></i>
 						<span class="ml-2">600</span>
 					</div>
-					<div class="social-shares ml-4"> 
+					<div class="social-shares ml-3"> 
 						<i class="fab fa-linkedin"></i>
 						<span class="ml-2">470</span>
 					</div>
 				</div>
 			</div>
-			<div class="creator-metrics border-top pt-4 pl-4">
+			<div class="creator-metrics border-top pt-3 pl-4 mb-1">
 				<p v-if="card_type == 'content-creator'">Creator Engagement Rate: <span class="ml-2">98.2%</span></p>
 				<p v-else>Consumer Engagement Rate: <span class="ml-2">88.7%</span></p>  
 			</div>
@@ -122,8 +122,8 @@
   object-fit: cover; 
 	object-position:center;
 	height: 87px;
-	filter: blur(30px);
-  -webkit-filter: blur(30px);
+	filter: blur(40px);
+  -webkit-filter: blur(40px);
 	width:100%; 
 } 
 
@@ -144,6 +144,7 @@
   color:#096DD9;
   display: inline-block;
   padding: 8px;
+	border:none;
   border-radius: 4px;
   background-color: #fff;
   font-size: 14px;
@@ -171,11 +172,11 @@
 #user-card .creator-metrics p, 
 #user-card .creator-metrics span {
 	font-size:14px;	
-	font-weight:400;
 }
 
 #user-card .creator-metrics p {
 	color:#565656;
+	font-weight:500;
 }
 
 #user-card .creator-metrics span { 
