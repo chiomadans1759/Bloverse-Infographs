@@ -1,8 +1,8 @@
 <template>
   <div id="default-layout">
     <Intro />
-    <Performance />
     <Trending />
+    <Performance />
     <Visitors/>
     <Popular/>
     <Footer/>

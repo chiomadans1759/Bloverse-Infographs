@@ -3,8 +3,10 @@
     <div class="container">
         <div class="row">
 					<div class="col" id="brand">
-						<img src="@/assets/logo.svg" alt="Bloverse Logo" />
-						<span>loverse</span>
+						<a href="">
+							<img src="@/assets/logo.svg" alt="Bloverse Logo" />
+							<span>loverse</span>
+						</a>
 					</div>
 
 					<div class="col-auto">
