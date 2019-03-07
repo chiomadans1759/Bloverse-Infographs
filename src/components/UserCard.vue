@@ -5,8 +5,12 @@
 			<h6 v-else>Top Content Consumer of the Month</h6> 
     </div>
     <div class="card" style="height:420px;">
-      <img v-if="card_type == 'content-creator'" class="image-blur" src="./../assets/content-creator.jpg" alt>
-      <img v-else class="image-blur" src="./../assets/content-consumer.jpg" alt>
+      <div class="overlay" v-if="card_type == 'content-creator'">
+				<img  class="image-blur" src="./../assets/content-creator.jpg" alt>
+			</div>
+      <div class="overlay" v-else>
+				<img class="image-blur" src="./../assets/content-consumer.jpg" alt>
+			</div>
 			<img v-if="card_type == 'content-creator'" class="image-avarter" src="./../assets/content-creator.jpg" alt>
       <img v-else class="image-avarter" src="./../assets/content-consumer.jpg" alt>
 			<p class="card-body-category" v-show="card_type == 'content-creator'">Follow</p> 
@@ -79,7 +83,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="creator-metrics border-top pt-3 pl-4">
+			<div class="creator-metrics border-top pt-4 pl-4">
 				<p v-if="card_type == 'content-creator'">Creator Engagement Rate: <span class="ml-2">98.2%</span></p>
 				<p v-else>Consumer Engagement Rate: <span class="ml-2">88.7%</span></p>  
 			</div>
@@ -97,18 +101,29 @@
 </script>
 
 <style scoped> 
+#user-card .card{
+	box-shadow:none; 
+	border:1px solid #ccc;
+}
+
 #user-card h6 {
   font-size:16px;
   font-weight:bold;
 	color:#565656;
 }
 
+#user-card .overlay { 
+	background-color:#000; 
+	overflow:hidden; 
+}
+
 #user-card .image-blur {
   object-fit: cover; 
 	object-position:center;
 	height: 87px;
-	filter: blur(2px);
-  -webkit-filter: blur(2px); 
+	filter: blur(40px);
+  -webkit-filter: blur(40px);
+	width:100%; 
 } 
 
 #user-card .image-avarter {
@@ -155,7 +170,7 @@
 #user-card .creator-metrics p, 
 #user-card .creator-metrics span {
 	font-size:14px;	
-	font-weight:bold;
+	font-weight:400;
 }
 
 #user-card .creator-metrics p {
@@ -163,7 +178,8 @@
 }
 
 #user-card .creator-metrics span { 
-	color:#252525; 
+	color:#252525;	
+	font-weight:600;
 }
 
 #user-card .this-month {
