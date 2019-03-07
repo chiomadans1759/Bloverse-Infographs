@@ -101,28 +101,19 @@
 </script>
 
 <style scoped> 
-#user-card .card{
-	box-shadow:none; 
-	border:1px solid #ccc;
-}
-
+ 
 #user-card h6 {
   font-size:16px;
   font-weight:bold;
 	color:#565656;
 }
 
-#user-card .overlay { 
-	background-color:#000; 
-	overflow:hidden; 
-}
-
 #user-card .image-blur {
   object-fit: cover; 
 	object-position:center;
 	height: 87px;
-	filter: blur(40px);
-  -webkit-filter: blur(40px);
+	filter: blur(5px);
+  -webkit-filter: blur(5px);
 	width:100%; 
 } 
 
