@@ -14,10 +14,11 @@
 					size="sm"
 					variant="bax"
 				>
-					<b-dropdown-item>Nigeria</b-dropdown-item>
-					<b-dropdown-item>Australia</b-dropdown-item>
-					<b-dropdown-item>UK</b-dropdown-item>
-					<b-dropdown-item>Ghana</b-dropdown-item>
+					<b-dropdown-item  
+						v-for="country in countries" 
+						:key="country">
+						{{country}}
+					</b-dropdown-item>
 				</b-dropdown>
 			</div> 
 			<div class="row d-flex mb-5">
@@ -66,7 +67,7 @@ export default {
 	components: {PostCard, UserCard},
 	data() {
 		return { 
-			options: [ "Australia", "Canada", "China", "Germany", "Japan", "Mexico", "Switzerland", "United States"]
+			countries:["Nigeria", "Kenya", "USA", "Australia", "South Africa", "UK"]
 		}
 	}    
 }

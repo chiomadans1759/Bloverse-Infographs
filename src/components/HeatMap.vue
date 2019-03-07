@@ -23,16 +23,17 @@
           <div class="d-flex align-items-center br-5 font-weight-bold mb-2">
             <span class="second-circle fas fa-circle mr-3"></span> 
             <div class="dropdown select border d-flex justify-content-end">
-              <b-dropdown
+              <b-dropdown 
                 class="bax "
                 id="ddown"
                 text="Nigeria"
                 size="sm"
                 variant="bax">
-                <b-dropdown-item>Nigeria</b-dropdown-item>
-                <b-dropdown-item>Australia</b-dropdown-item>
-                <b-dropdown-item>UK</b-dropdown-item>
-                <b-dropdown-item>Ghana</b-dropdown-item>
+                <b-dropdown-item  
+                  v-for="country in countries" 
+                  :key="country">
+                  {{ country}}
+                </b-dropdown-item> 
               </b-dropdown>
             </div> 
           </div>
@@ -86,15 +87,21 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div>  
       <div class="row mt-3 col-lg-8 col-xl-8 color-scale">  
-        <div class="">
-          <span class="first-circle fas fa-circle"></span> UK
-          <span class="second-circle fas fa-circle ml-4"></span> Kenya
-          <span class="third-circle fas fa-circle ml-4"></span> USA
-          <span class="fourth-circle fas fa-circle ml-4"></span> Australia              
-          <span class="fifth-circle fas fa-circle ml-4"></span> China
-          <span class="sixth-circle fas fa-circle ml-4"></span> Nigeria
+        <div class="mr-4" v-for="(country, index) in countries" :key="country">
+          <i 
+            :class="{ 
+              'fas fa-circle': true, 
+              'first-circle':  index == 0,
+              'second-circle': index == 1,
+              'third-circle':  index == 2,
+              'fourth-circle': index == 3,
+              'fifth-circle':  index == 4,
+              'sixth-circle':  index == 5 }"
+          >
+          </i>
+          <span>{{country}}</span>
         </div>    
       </div> 
 		</div> 
@@ -113,7 +120,7 @@
 }
 
 #heat-map .first-circle {
-  color: #759BC4;
+  color: #759BC4 !important;
 }
 
 #heat-map .second-circle {
@@ -156,8 +163,7 @@
 }
 
 #heat-map .select {  
-  font-size:12px;
-  margin:0; 
+  font-size:12px; 
   border-radius:5px; 
 } 
 
@@ -216,6 +222,7 @@ export default {
   },
   data() {
     return {
+      countries:["Nigeria", "Kenya", "USA", "Australia", "South Africa", "UK"],
       chartData: [
         ["Country", "Users", "Views"],
         ["United Kingdom", 780, 6600],
@@ -231,12 +238,13 @@ export default {
         keepAspectRatio: true, 
         tooltip: {
           textStyle: {
-            color: '#868686', 
-            cornerRadius: "5px",
-            fontSize:12
-          }
+            color: '#868686',
+            fontSize:12, 
+            padding:10
+          } 
         },
-      }, 
+        legend:{},
+        }, 
       selectedDate: {
         start: null,
         end: null
