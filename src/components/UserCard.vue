@@ -114,6 +114,7 @@
 
 #user-card .overlay { 
 	background-color:#000; 
+	opacity:.8;
 	overflow:hidden; 
 }
 
@@ -121,8 +122,8 @@
   object-fit: cover; 
 	object-position:center;
 	height: 87px;
-	filter: blur(40px);
-  -webkit-filter: blur(40px);
+	filter: blur(30px);
+  -webkit-filter: blur(30px);
 	width:100%; 
 } 
 

@@ -1,7 +1,7 @@
 <template>
 	<section>
 		<div id="heat-map" class="container mt-5 pt-3">
-			<div class="d-flex heading">
+			<div class="row heading">
 				<p>HeatMap<br>
 					<span>Take a look at how our global community interacts</span>
 				</p>
@@ -9,11 +9,11 @@
       <div class="row">
         <div class="col-9"> 
           <GChart type="GeoChart" :data="chartData" :options="chartOptions" ref="chartData"/>
-          <div class=" row justify-content-end mr-5 total-users">
-            <div class="card col-4 px-4 py-2">
+          <div class=" row justify-content-end mr-2 total-users">
+            <div class="card col-3 py-2">
               <div class="row">
-                <div class="col-6 text-left br-5">Total Users:</div>
-                <div class="col-6 text-right font-weight-bold total">5, 000, 350</div>
+                <div class="text-left br-5">Total Users:</div>
+                <div class="text-right font-weight-bold total">5,000,350</div>
               </div>
             </div> 
           </div> 
@@ -82,8 +82,8 @@
           </div>
         </div>
       </div> 
-      <div class="row mt-5 px-4 col-lg-8 col-xl-8 mb-2">  
-        <div class="col-12">
+      <div class="row mt-3 col-lg-8 col-xl-8 pb-5">  
+        <div class="">
           <span class="first-circle fas fa-circle"></span> UK
           <span class="second-circle fas fa-circle ml-4"></span> Kenya
           <span class="third-circle fas fa-circle ml-4"></span> USA
@@ -227,7 +227,7 @@ export default {
             cornerRadius: 5,
             fontSize:12
           }
-        }
+        },
       }, 
       selectedDate: {
         start: null,
